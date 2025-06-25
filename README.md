@@ -1,2 +1,3 @@
 # TRCS201_2025
-##Day :- 01 of trainning 
+## Training day :- 01
+I am **Kanika**. Today was my first day of summer training in the **Computer Science Department(Parent branch)** . I was very excited of this training . Firstly there was conducted an **orientation program** for us in the . Here , firstly we were interacted with professor **Dr. Priyanka** of Computer Scienec department . She gave us all the necessary information that required and also welcomed us in our parent branch . Then **Head of Department** Dr. Kiran Jyoti interacted with us . She introduced us with a new scheme . After this valuable interaction , we were all shifted to our respective venue . 
