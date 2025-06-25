@@ -17,5 +17,5 @@ Firstly i learned about **Linux** & **its importance** then why most of the **co
   |Performance	|Lightweight, works well on older systems	|Requires more system resources|
   |User Interface |Depends on distro (e.g., Ubuntu, Fedora)|Standard and consistent UI|
   |Support for Software|Limited for some commercial software|Widely supported software (e.g., MS Office)|
-  |Best for	Developers, programmers, servers|General users, gamers, businesses|
+  |Best for |	Developers, programmers, servers|General users, gamers, businesses|
   
