@@ -102,7 +102,8 @@ When you switch on your computer, the system loads the operating system (like Wi
 Day **two** of the **summer training program** picked up right where we left off , diving deeper into the concepts introduced yesterday. It brought with a fresh set of challenges and exciting new information . The instructor continued to provide insightful explanations making complex concepts easy to grasp . It was a productive day thaT further fueled my enthusiasm for the rest of the training .
 
 ---
-### Structure of Linux
+### Structure of Linux shell
+![alt text](Linuxshell.png)
 
 ### Study of Kernel
 The kernel is the core part of an operating system.
@@ -160,7 +161,7 @@ Easy for beginners
 The Linux file system is organized **like a tree**, starting from the **root** directory `/`.  
 All files and folders are inside this root, even if they are on different drives.
 
----
+![alt text](struct.png)
 
 ### 🌳 Main Folders in Linux File System
 
@@ -206,6 +207,10 @@ All files and folders are inside this root, even if they are on different drives
 | `pwd` | Shows current directory path | `pwd` | `pwd` |
 
 ---
+
+![alt text](com1.jpg)
+
+![alt text](com2.jpg)
 
 📌 Use these commands in the terminal to manage files, navigate folders, and control your Linux system.
 **To use terminal command Ctrl + Alt + T**
