@@ -98,6 +98,13 @@ When you switch on your computer, the system loads the operating system (like Wi
 ---
 
 ## Training Day :- 02
-Day **two** of the **summer training program** picked up right where we left off , diving deeper into the concepts introduced yesterday. It brought with a fresh set of challenges and exciting new information . 
+---
+Day **two** of the **summer training program** picked up right where we left off , diving deeper into the concepts introduced yesterday. It brought with a fresh set of challenges and exciting new information . The instructor continued to provide insightful explanations making complex concepts easy to grasp . It was a productive day thaT further fueled my enthusiasm for the rest of the training .
+
+---
+### Study of Kernel
+The kernel is the core part of an operating system.
+It manages the communication between hardware and software.
+Also, it manages the following resources of the linu
 
 
