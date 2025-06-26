@@ -73,6 +73,15 @@ I have also learned about booting and types-
 **Booting** is the process of starting a computer.
 When you switch on your computer, the system loads the operating system (like Windows or Linux) from the hard drive into the RAM (memory), so you can use the computer.
 
+### 🔁 Booting Process :
+
+1. **Power On** – You turn on the computer.
+2. **POST (Power-On Self-Test)** – System checks hardware (RAM, keyboard, etc.).
+3. **BIOS/UEFI Loads** – Basic system firmware starts.
+4. **Boot Loader Activated** – BIOS/UEFI finds and runs the boot loader.
+5. **OS Loading** – Boot loader loads the operating system into RAM.
+6. **System Ready** – Operating system starts, and the computer is ready to use.
+
 ---
 
 ### 🧾 Types of Booting:
@@ -86,5 +95,9 @@ When you switch on your computer, the system loads the operating system (like Wi
 
    * Happens when the system restarts without turning off the power.
    * Example: You click **Restart** or press **Ctrl + Alt + Del**.
+---
+
+## Training Day :- 02
+Day **two** of the **summer training program** picked up right where we left off , diving deeper into the concepts introduced yesterday. It brought with a fresh set of challenges and exciting new information . 
 
 
