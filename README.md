@@ -45,6 +45,12 @@ Here are **career opportunities with Linux** in short points:
   - Step 3: Download Ubuntu ISO
   - Step 4: Create a Virtual Machine and Install Ubuntu
   ### Resources
+
+  [Download Ubuntu](https://tinyurl.com/csegndec)
+
+  [Download Oracle VirtualBox](https://www.virtualbox.org)
+
+  [Download Latest VC++ Redistributable](https://learn.microsoft.com/en-US/cpp/windows/latest-supported-vc-redist)
   
 
 ### Study of Product-based company and Service-based comapany
