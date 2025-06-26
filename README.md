@@ -187,6 +187,28 @@ All files and folders are inside this root, even if they are on different drives
 - The top-level directory is `/` (called **root**).
 - Everything is organized under `/` like branches of a tree.
 - Linux does **not** use drive letters like Windows (C:, D:) — everything is part of the same tree.
+## 🖥️ Basic Shell Commands in Linux (With Syntax)
+
+| Command | Description | Syntax | Example |
+|--------|-------------|--------|---------|
+| `ls` | Lists files and folders | `ls [options]` | `ls -l` |
+| `cd` | Changes directory | `cd [directory]` | `cd /home/user` |
+| `mkdir` | Creates a new folder | `mkdir [folder_name]` | `mkdir myfolder` |
+| `rmdir` | Removes an empty folder | `rmdir [folder_name]` | `rmdir myfolder` |
+| `touch` | Creates a new empty file | `touch [file_name]` | `touch file.txt` |
+| `rm` | Removes files or folders | `rm [file/folder]` | `rm file.txt` |
+| `cp` | Copies files/folders | `cp [source] [destination]` | `cp file.txt /home/user/` |
+| `mv` | Moves or renames files/folders | `mv [source] [destination]` | `mv file.txt newname.txt` |
+| `cat` | Displays contents of a file | `cat [file_name]` | `cat file.txt` |
+| `clear` | Clears the terminal screen | `clear` | `clear` |
+| `man` | Shows manual/help for a command | `man [command]` | `man ls` |
+| `exit` | Closes the terminal session | `exit` | `exit` |
+| `pwd` | Shows current directory path | `pwd` | `pwd` |
+
+---
+
+📌 Use these commands in the terminal to manage files, navigate folders, and control your Linux system.
+
 
 
 
