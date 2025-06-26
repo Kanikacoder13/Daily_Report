@@ -1,4 +1,4 @@
-# TRCS201_2025
+# Daily Report
 ## Training day :- 01
 I am **Kanika**. Today was my first day of summer training in the **Computer Science Department(Parent branch)** . I was very excited of this training . Firstly there was conducted an **orientation program** for us in the **auditorium** . Here , firstly I was interacted with professor **Dr. Priyanka** of **Computer Scienec department** . She gave all the necessary information that required and also welcomed all the students who are going to be part of the parent branch . Then **Head of Department** Dr. Kiran Jyoti interacted with all . She also introduced a new scheme for **2024 year onwards students**. After this valuable interaction , all the students shifted to their respective labs . In the lab , firstly our teacher explained the syllabus of this training that all the students will study in further days .Then she said that first day we will discuss about **linux**.
 Firstly i learned about **Linux** & **its importance** then why most of the **companies** & **coders** use **Linux** over **Windows** ? Following are the reasons behind it :- 
