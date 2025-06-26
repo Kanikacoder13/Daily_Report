@@ -66,8 +66,6 @@ Here are **career opportunities with Linux** in short points:
 ## Booting and its types 
 I have also learned about booting and types-
 
----
-
 ### 🖥️ What is Booting?
 
 **Booting** is the process of starting a computer.
