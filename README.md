@@ -102,8 +102,11 @@ When you switch on your computer, the system loads the operating system (like Wi
 Day **two** of the **summer training program** picked up right where we left off , diving deeper into the concepts introduced yesterday. It brought with a fresh set of challenges and exciting new information . The instructor continued to provide insightful explanations making complex concepts easy to grasp . It was a productive day thaT further fueled my enthusiasm for the rest of the training .
 
 ---
-### Structure of Linux shell
+## Structure of Linux shell
+
 ![alt text](Linuxshell.png)
+
+----
 
 ### Study of Kernel
 The kernel is the core part of an operating system.
@@ -111,11 +114,14 @@ The kernel is the core part of an operating system.
 It manages the communication between hardware and software.
 
 Also, it manages the following resources of the linux system :-
+
 - Memory management
 - File manangement
 - Device management
 - Process management
 - I/O management etc
+
+-----------------------------------
 
 ### Study of Shell
 
@@ -188,6 +194,9 @@ All files and folders are inside this root, even if they are on different drives
 - The top-level directory is `/` (called **root**).
 - Everything is organized under `/` like branches of a tree.
 - Linux does **not** use drive letters like Windows (C:, D:) — everything is part of the same tree.
+
+  -----
+  
 ## 🖥️ Basic Shell Commands in Linux (With Syntax)
 
 | Command | Description | Syntax | Example |
@@ -201,6 +210,8 @@ All files and folders are inside this root, even if they are on different drives
 | `cp` | Copies files/folders | `cp [source] [destination]` | `cp file.txt /home/user/` |
 | `mv` | Moves or renames files/folders | `mv [source] [destination]` | `mv file.txt newname.txt` |
 | `cat` | Displays contents of a file | `cat [file_name]` | `cat file.txt` |
+| `whatis` | Gives a one-line description of a command | `whatis [command]` | `whatis ls` |
+| `whereis` | Shows location of binary, source, and man page | `whereis [command]` | `whereis gcc` |
 | `clear` | Clears the terminal screen | `clear` | `clear` |
 | `man` | Shows manual/help for a command | `man [command]` | `man ls` |
 | `exit` | Closes the terminal session | `exit` | `exit` |
