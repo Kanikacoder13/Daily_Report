@@ -21,6 +21,8 @@ Firstly i learned about **Linux** & **its importance** then why most of the **co
   |User Interface |Depends on distro (e.g., Ubuntu, Fedora)|Standard and consistent UI|
   |Support for Software|Limited for some commercial software|Widely supported software (e.g., MS Office)|
   |Best for |	Developers, programmers, servers|General users, gamers, businesses|
+
+  ---
   ### Uses of linux :-
   - Servers
   - Programming
@@ -28,7 +30,7 @@ Firstly i learned about **Linux** & **its importance** then why most of the **co
   - Education
   - Cloud Computing
   - Networking
-
+---
 Here are **career opportunities with Linux** in short points:
 
 1. **Linux System Administrator** – Manage Linux servers and systems.
@@ -41,7 +43,7 @@ Here are **career opportunities with Linux** in short points:
 8. **Data Scientist** – Use Linux for big data processing and analysis.
 9. **Open Source Contributor** – Contribute to Linux and open-source projects.
 10. **IT Trainer** – Teach Linux skills and prepare others for certifications.
-
+----
   ### Installation of linux
   - Step 1: Download and Install VirtualBox
   - Step 2: Download Microsoft Visual C++ Redistributable
@@ -62,7 +64,9 @@ Here are **career opportunities with Linux** in short points:
 
 - **Service-based Company**:- A comapny that provides **services to other companies** like software development,support or consulting. **E.g.**:- TCS , Infosys.
 ## Booting and its types 
-I have also learned about booting and types
+I have also learned about booting and types-
+
+---
 
 ### 🖥️ What is Booting?
 
