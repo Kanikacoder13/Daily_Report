@@ -63,6 +63,8 @@ Here are **career opportunities with Linux** in short points:
 - **Product-based Company**:- A company that builds and sells its **own products** likesoftware,apps, or devices. **E.g.**:- Google , Microsoft.
 
 - **Service-based Company**:- A comapny that provides **services to other companies** like software development,support or consulting. **E.g.**:- TCS , Infosys.
+
+---
 ## Booting and its types 
 I have also learned about booting and types-
 
