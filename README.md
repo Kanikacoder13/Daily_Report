@@ -208,6 +208,7 @@ All files and folders are inside this root, even if they are on different drives
 ---
 
 📌 Use these commands in the terminal to manage files, navigate folders, and control your Linux system.
+**To use terminal command Ctrl + Alt + T**
 
 
 
