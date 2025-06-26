@@ -102,9 +102,50 @@ When you switch on your computer, the system loads the operating system (like Wi
 Day **two** of the **summer training program** picked up right where we left off , diving deeper into the concepts introduced yesterday. It brought with a fresh set of challenges and exciting new information . The instructor continued to provide insightful explanations making complex concepts easy to grasp . It was a productive day thaT further fueled my enthusiasm for the rest of the training .
 
 ---
+### Structure of Linux
+
 ### Study of Kernel
 The kernel is the core part of an operating system.
+
 It manages the communication between hardware and software.
-Also, it manages the following resources of the linu
+
+Also, it manages the following resources of the linux system :-
+- Memory management
+- File manangement
+- Device management
+- Process management
+- I/O management etc
+
+### Study of Shell
+The shell is a program that acts as an interface between the user and the operating system.
+
+It takes user commands and tells the operating system to perform tasks.
+ 
+ ## Types of Shell
+
+Shells are mainly divided into two categories:
+ **1. Command-Line Interface (CLI) Shells**
+
+User interacts by typing commands
+
+Fast and powerful for developers and system admins
+
+Examples (Types of CLI Shells):
+
+Shell Name	 Description
+---------------------------
+sh	        Bourne Shell (original Unix shell)
+bash	    Bourne Again Shell (most popular)
+csh	      C Shell (C-like syntax)
+ksh	      Korn Shell (advanced features)
+zsh	      Z Shell (user-friendly and customizable)
+----------------------------------------
+
+**2. Graphical User Interface (GUI) Shells**
+
+    User interacts using windows, icons, and buttons
+
+    Easy for beginners
+
 
 
