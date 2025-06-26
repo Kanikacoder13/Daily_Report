@@ -124,6 +124,7 @@ It takes user commands and tells the operating system to perform tasks.
  ## Types of Shell
 
 Shells are mainly divided into two categories:
+
  **1. Command-Line Interface (CLI) Shells**
 
 User interacts by typing commands
@@ -135,15 +136,20 @@ Examples (Types of CLI Shells):
 Shell Name	 Description
 ---------------------------
 sh	        Bourne Shell (original Unix shell)
+
 bash	    Bourne Again Shell (most popular)
+
 csh	      C Shell (C-like syntax)
+
 ksh	      Korn Shell (advanced features)
+
 zsh	      Z Shell (user-friendly and customizable)
+
 ----------------------------------------
 
 **2. Graphical User Interface (GUI) Shells**
 
-    User interacts using windows, icons, and buttons
+User interacts using windows, icons, and buttons
 
     Easy for beginners
 
