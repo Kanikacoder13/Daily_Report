@@ -117,9 +117,12 @@ Also, it manages the following resources of the linux system :-
 - I/O management etc
 
 ### Study of Shell
+
 The shell is a program that acts as an interface between the user and the operating system.
 
 It takes user commands and tells the operating system to perform tasks.
+
+It lets you type commands to tell the computer what to do , like opening files , mananging programs.
  
  ### Types of Shell
 
@@ -136,22 +139,57 @@ Examples (Types of CLI Shells):
 |Shell Name	|          Description                 |
 |-----------|--------------------------------------|
 |     sh	  |Bourne Shell (original Unix shell)    |
-
 |    bash   |	Bourne Again Shell (most popular)    |
-
 |   csh     |	      C Shell (C-like syntax)        |
-
 |    ksh    |	   Korn Shell (advanced features)    |
-
 |    zsh    |Z Shell (user-friendly & customizable)|
-
 |-----------|--------------------------------------|
 
 **2. Graphical User Interface (GUI) Shells**
 
 User interacts using windows, icons, and buttons
 
-    Easy for beginners
+Easy for beginners
+
+**Example** : GNOME, KDE (on Linux)
+
+----
+
+## 📁 Linux File System Structure 
+
+The Linux file system is organized **like a tree**, starting from the **root** directory `/`.  
+All files and folders are inside this root, even if they are on different drives.
+
+---
+
+### 🌳 Main Folders in Linux File System
+
+| Directory | Meaning |
+|-----------|---------|
+| `/`       | **Root** – Starting point of the file system |
+| `/bin`    | Essential **binaries** (like `ls`, `cp`, etc.) |
+| `/boot`   | Files needed to **boot** the system |
+| `/etc`    | System **configuration** files |
+| `/home`   | Personal folders for **users** (like `/home/kanika`) |
+| `/lib`    | Shared **libraries** for programs |
+| `/media`  | Used to mount **USB drives, CDs** etc. |
+| `/opt`    | **Optional software** packages |
+| `/root`   | **Home directory** of the root user |
+| `/sbin`   | System **admin commands** |
+| `/tmp`    | Temporary files (auto-deleted) |
+| `/usr`    | User-related programs and data |
+| `/var`    | Variable data (like **logs**, mails) |
+
+---
+
+#### 📌 Key Points
+
+- The top-level directory is `/` (called **root**).
+- Everything is organized under `/` like branches of a tree.
+- Linux does **not** use drive letters like Windows (C:, D:) — everything is part of the same tree.
+
+
+
 
 
 
