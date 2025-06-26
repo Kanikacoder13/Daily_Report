@@ -44,8 +44,12 @@ Here are **career opportunities with Linux** in short points:
   - Step 2: Download Microsoft Visual C++ Redistributable
   - Step 3: Download Ubuntu ISO
   - Step 4: Create a Virtual Machine and Install Ubuntu
+  ### Resources
+  
+
 ### Study of Product-based company and Service-based comapany
 - **Product-based Company**:- A company that builds and sells its **own products** likesoftware,apps, or devices. **E.g.**:- Google , Microsoft.
 
 - **Service-based Company**:- A comapny that provides **services to other companies** like software development,support or consulting. **E.g.**:- TCS , Infosys.
-###That's all about the day 
+###That's all about the day
+
