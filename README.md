@@ -25,6 +25,7 @@ Firstly i learned about **Linux** & **its importance** then why most of the **co
   - Education
   - Cloud Computing
   - Networking
+
 Here are **career opportunities with Linux** in short points:
 
 1. **Linux System Administrator** – Manage Linux servers and systems.
