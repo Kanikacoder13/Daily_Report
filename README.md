@@ -133,19 +133,19 @@ Fast and powerful for developers and system admins
 
 Examples (Types of CLI Shells):
 
-|Shell Name	| Description|
-|-----------|------------|
-|sh	|        Bourne Shell (original Unix shell)|
+|Shell Name	|          Description                 |
+|-----------|--------------------------------------|
+|     sh	  |Bourne Shell (original Unix shell)    |
 
-|bash|	    Bourne Again Shell (most popular)|
+|    bash   |	Bourne Again Shell (most popular)    |
 
-|csh|	      C Shell (C-like syntax)|
+|   csh     |	      C Shell (C-like syntax)        |
 
-|ksh|	      Korn Shell (advanced features)|
+|    ksh    |	   Korn Shell (advanced features)    |
 
-|zsh|	      Z Shell (user-friendly and customizable)|
+|    zsh    |Z Shell (user-friendly & customizable)|
 
-----------------------------------------
+|-----------|--------------------------------------|
 
 **2. Graphical User Interface (GUI) Shells**
 
