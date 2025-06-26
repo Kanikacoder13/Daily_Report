@@ -6,6 +6,9 @@ Firstly i learned about **Linux** & **its importance** then why most of the **co
 - Linux is **open source** , so it can be easily available.
 - Linux is **free** , while windows required paid license.
 - Linux has large community.
+
+---
+  
   ### Difference between linux and window
   | Feature | Linux | Window |
   |---------|-------|--------|
