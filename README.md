@@ -1,6 +1,6 @@
 # Daily Report
 ## Training day :- 01
-I am **Kanika**. Today was my first day of summer training in the **Computer Science Department(Parent branch)** . I was very excited of this training . Firstly there was conducted an **orientation program** for us in the **auditorium** . Here , firstly I was interacted with professor **Dr. Priyanka** of **Computer Scienec department** . She gave all the necessary information that required and also welcomed all the students who are going to be part of the parent branch . Then **Head of Department** Dr. Kiran Jyoti interacted with all . She also introduced a new scheme for **2024 year onwards students**. After this valuable interaction , all the students shifted to their respective labs . In the lab , firstly our teacher explained the syllabus of this training that all the students will study in further days .Then she said that first day we will discuss about **linux**.
+I am **Kanika**. Today was my first day of summer training in the **Computer Science Department(Parent branch)** . I was very excited about this training . Firstly there was an **orientation program** conducted for us in the **auditorium** . Here , I interacted with **Dr. Priyanka** who is professor in **Computer Scienec department** . She gave all the necessary information that was required and also welcomed all the students who are going to be part of the parent branch . She told us about socities , attendance creteria and many other things . Then , I interacted with **Head of Department, Dr. Kiran Jyoti** along with all the students . She also introduced a new scheme for **2024 year onwards students**. After this valuable interaction , all the students shifted to their respective labs . In the lab , our teacher explained the syllabus of this training that all the students will study in further days . Then she said that first day we will discuss about **Linux**.
 Firstly i learned about **Linux** & **its importance** then why most of the **companies** & **coders** use **Linux** over **Windows** ? Following are the reasons behind it :- 
 - Linux is **more secure** due to its permission-based system and fewer malware targets than windows.
 - Linux is **open source** , so it can be easily available.
@@ -52,10 +52,35 @@ Here are **career opportunities with Linux** in short points:
 
   [Download Latest VC++ Redistributable](https://learn.microsoft.com/en-US/cpp/windows/latest-supported-vc-redist)
   
+---
 
 ### Study of Product-based company and Service-based comapany
 - **Product-based Company**:- A company that builds and sells its **own products** likesoftware,apps, or devices. **E.g.**:- Google , Microsoft.
 
 - **Service-based Company**:- A comapny that provides **services to other companies** like software development,support or consulting. **E.g.**:- TCS , Infosys.
-###That's all about the day
+### Booting and its types 
+I have also learned about booting and types
+Sure! Here's a simple explanation of **booting** and its **types**:
+
+---
+
+### 🖥️ What is Booting?
+
+**Booting** is the process of starting a computer.
+When you switch on your computer, the system loads the operating system (like Windows or Linux) from the hard drive into the RAM (memory), so you can use the computer.
+
+---
+
+### 🧾 Types of Booting:
+
+1. **Cold Booting (Hard Booting):**
+
+   * Happens when the computer is started from the power-off state.
+   * Example: You press the power button to turn on your PC.
+
+2. **Warm Booting (Soft Booting):**
+
+   * Happens when the system restarts without turning off the power.
+   * Example: You click **Restart** or press **Ctrl + Alt + Del**.
+
 
