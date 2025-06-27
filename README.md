@@ -53,14 +53,14 @@ Here are **career opportunities with Linux** in short points:
 
   [Download Ubuntu](https://tinyurl.com/csegndec)
 
-  [Download Oracle VirtualBox](https://www.virtualbox.org)
+  [Download Oracle Virtual Box](https://www.virtualbox.org)
 
-  [Download Latest VC++ Redistributable](https://learn.microsoft.com/en-US/cpp/windows/latest-supported-vc-redist)
+  [Download Latest Visual C++ Redistributable](https://learn.microsoft.com/en-US/cpp/windows/latest-supported-vc-redist)
   
 ---
 
 ### Study of Product-based company and Service-based comapany
-- **Product-based Company**:- A company that builds and sells its **own products** likesoftware,apps, or devices. **E.g.**:- Google , Microsoft.
+- **Product-based Company**:- A company that builds and sells its **own products** like software,apps, or devices. **E.g.**:- Google , Microsoft.
 
 - **Service-based Company**:- A comapny that provides **services to other companies** like software development,support or consulting. **E.g.**:- TCS , Infosys.
 
