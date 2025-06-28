@@ -790,20 +790,23 @@ Sorted version of the file content, line by line.
 ## Shell Programs
 
 ### Program 1 : To display name , age and city
-![alt text](nano(name).png)
 
 ![alt text](name.png)
 
+![alt text](nano(name).png)
+
 ### Program 2 : To print multiplication table
-![alt text](nano(num).png)
 
 ![alt text](num.png)
 
+![alt text](nano(num).png)
+
+
 ### Program 3 : To compare two numbers
 
-![alt text](nano(great).png)
-
 ![alt text](great.png)
+
+![alt text](nano(great).png)
 
 
 
