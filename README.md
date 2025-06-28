@@ -666,6 +666,10 @@ chown user:group file.txt
 
 > `chown` = change owner
 
+**Point to remember**:
+
+When working with system files, it's often necessary to use **sudo** to **execute chmod** with root privileges.
+
 ---
 ## 🔄 Redirection in Linux
 
