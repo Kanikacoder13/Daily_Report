@@ -291,7 +291,8 @@ The file system structure is like a **digital cabinet** that helps the OS and us
 
 ## 🔐 Linux File Permission Commands – `chmod`, `chmod 444`, `chmod 644`, `chown`
 
-In Linux, controlling **who can access or modify files** is crucial for system security and user management. Every file and directory has **permissions** assigned to three types of users — **owner**, **group**, and **others**. These permissions determine whether a user can **read**, **write**, or **execute** the file.
+Linux uses file permissions to control **who can read, write, or execute files and directories**. The `chmod` command allows us to modify these permissions. Every file and directory has **permissions** assigned to three types of users — **owner(u)**, **group(g)**, and **others(o)**. These permissions determine whether a user can **read**, **write**, or **execute** the file.
+
 ---
 
 ### ✅ **1. `chmod` (Change File Permissions)**
@@ -304,6 +305,63 @@ In Linux, controlling **who can access or modify files** is crucial for system s
 chmod [permissions] [file_name]
 ```
 **For example:** chmod + x filename.sh
+
+## 🔧 `chmod +x filename.sh`
+
+### 📘 What Does It Do?
+The command `chmod +x filename.sh` is used to **add execute permission** to a file (usually a script like `.sh`), so it can be **run as a program**.
+
+---
+
+### 🔍 Syntax Breakdown
+
+| Component     | Description                                                  |
+| ------------- | ------------------------------------------------------------ |
+| `chmod`       | Stands for **Change Mode** – used to change file permissions |
+| `+x`          | Adds **execute** permission                                  |
+| `filename.sh` | The name of the shell script file                            |
+
+---
+
+### ✅ Purpose
+
+This command makes a file **executable** by the **user, group, and others (by default)**.
+You can then run the script directly using:
+
+```bash
+./filename.sh
+```
+
+Without execute permission, you'll see:
+
+```
+bash: ./filename.sh: Permission denied
+```
+
+---
+
+### 🧪 Example
+
+```bash
+chmod +x install.sh
+./install.sh
+```
+
+✅ Now the script `install.sh` can be executed just like a program.
+
+---
+
+### 💡 Pro Tip
+
+To give execute permission **only to the file owner**, use:
+
+```bash
+chmod u+x filename.sh
+```
+This is a safer option when sharing code in teams or on public systems.
+
+---
+
 
 #### 🔢 **Octal Permission Codes**:
 
@@ -343,7 +401,8 @@ chmod 644 file.txt
 
 `chown` changes the **owner** or **group** of a file or directory.
 
-#### 🔸 **Syntax**:
+**Syntax**:
+#### 🔸**change owner**:
 
 ```bash
 chown [new_owner] [file_name]
@@ -355,25 +414,19 @@ chown [new_owner] [file_name]
 chown user:group file.txt
 ```
 
-#### 🧪 **Example**:
+✅ **Examples**:
 
-```bash
-chown kanika file.txt
-```
+    chown kanika file.txt → Changes the owner to kanika
 
-⟶ Sets `kanika` as the new owner of `file.txt`
-
+    chown root:admin file.txt → Changes owner to root and group to admin
 ---
 
 ### 📎 **Check Permissions**:
-✅ Tip:
+✅ *Tip*: Use ls -l to view current permissions:
 
-Use ls -l to view current permissions:
-
-```bash
-ls -l file.txt
-```
-
+ ```bash
+ ls -l file.txt
+ ```
 ---
 
 > 🔁 **Quick Tip**:
@@ -381,6 +434,18 @@ ls -l file.txt
 > `chown` = change owner
 
 ---
+## 🔄 Redirection in Linux
+
+In Linux, **redirection** is a powerful feature used to control **input and output** of commands. It allows you to **save output to files, read from files, or even combine and filter output streams**. This is widely used in scripting and system automation. Redirection operator is ">"
+
+### 🔄 Types of Redirection in Linux
+
+Redirection is used to control where input comes from and where output goes in the Linux command line.
+
+|Operator|	Meaning|	Example|	Result|
+| >	|Output redirection	|ls > files.txt|	Saves output to files.txt (overwrites if it exists)|
+|>>	|Append output|	echo "Hello" >> notes.txt	|Adds "Hello" to end of notes.txt|
+|<	|Input redirection|	wc -l < notes.txt	|Reads input from notes.txt instead of keyboard|
 
 
 
