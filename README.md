@@ -51,11 +51,12 @@ Here are **career opportunities with Linux** in short points:
   - Step 4: Create a Virtual Machine and Install Ubuntu
   ### Resources
 
-  [Download Ubuntu](https://tinyurl.com/csegndec)
+1.  [Download Oracle Virtual Box](https://www.virtualbox.org)
 
-  [Download Oracle Virtual Box](https://www.virtualbox.org)
+2.  [Download Latest Visual C++ Redistributable](https://learn.microsoft.com/en-US/cpp/windows/latest-supported-vc-redist)
 
-  [Download Latest Visual C++ Redistributable](https://learn.microsoft.com/en-US/cpp/windows/latest-supported-vc-redist)
+3.  [Download Ubuntu](https://tinyurl.com/csegndec)
+
   
 ---
 
