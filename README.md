@@ -165,10 +165,22 @@ Easy for beginners
 
 ## 📁 Linux File System Structure 
 
+A file system structure is the way an operating system organizes and manages data (files and folders) on a storage device like a hard disk or SSD.
+
+It defines:
+
+    How files are stored
+
+    How folders (directories) are arranged
+
+    How the system keeps track of file locations and permissions
+
 The Linux file system is organized **like a tree**, starting from the **root** directory `/`.  
 All files and folders are inside this root, even if they are on different drives.
 
 ![alt text](struct.png)
+
+The file system structure is like a **digital cabinet** that helps the OS and users **to keep data organized and easy to access**
 
 ### 🌳 Main Folders in Linux File System
 
