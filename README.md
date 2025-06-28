@@ -49,6 +49,7 @@ Here are **career opportunities with Linux** in short points:
   - Step 2: Download Microsoft Visual C++ Redistributable
   - Step 3: Download Ubuntu ISO
   - Step 4: Create a Virtual Machine and Install Ubuntu
+
   ### Resources
 
 1.  [Download Oracle Virtual Box](https://www.virtualbox.org)
@@ -61,6 +62,7 @@ Here are **career opportunities with Linux** in short points:
 ---
 
 ### Study of Product-based company and Service-based comapany
+
 - **Product-based Company**:- A company that builds and sells its **own products** like software,apps, or devices. **E.g.**:- Google , Microsoft.
 
 - **Service-based Company**:- A comapny that provides **services to other companies** like software development,support or consulting. **E.g.**:- TCS , Infosys.
@@ -87,15 +89,25 @@ When you switch on your computer, the system loads the operating system (like Wi
 
 ### 🧾 Types of Booting:
 
-1. **Cold Booting (Hard Booting):**
+🔄 1. **Cold Booting (Hard Booting):**
 
-   * Happens when the computer is started from the power-off state.
-   * Example: You press the power button to turn on your PC.
+➡️ **Meaning**: Starting the computer when it is completely turned off.
+➡️ **Example**: You press the **power button** to turn on your computer after it was shut down – that's **cold booting**.
 
-2. **Warm Booting (Soft Booting):**
+🔁 2. **Warm Booting (Soft Booting)**:
 
-   * Happens when the system restarts without turning off the power.
-   * Example: You click **Restart** or press **Ctrl + Alt + Del**.
+➡️ **Meaning**: Restarting the computer without turning off the power.
+➡️ **Example**: You press **Ctrl + Alt + Del** or click **Restart** on Windows – that's **warm booting**.
+
+🔧 3. **Dual Booting**:
+➡️ **Meaning**: Having **two operating systems** installed and choosing one to run.
+➡️ **Example**: Your laptop has Windows and Linux installed. At startup, you choose which one to use.
+
+☁️ 4. **Network Booting (PXE Booting)**:
+
+➡️ **Meaning**: Booting a computer from a **network server** instead of **local storage**.
+➡️ **Example**: In a computer lab, systems boot from the college server using a LAN cable.
+
 ---
 
 ## Training Day :- 02
