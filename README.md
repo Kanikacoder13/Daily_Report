@@ -170,6 +170,61 @@ Examples (Types of CLI Shells):
 |    zsh    |Z Shell (user-friendly & customizable)|
 |-----------|--------------------------------------|
 
+### 🐚 What is **Bash**?
+
+**Bash** stands for **Bourne Again SHell**.
+It is a **command-line shell** used in **Linux** and **Unix-based systems** to **interact with the operating system**.
+
+---
+
+### 🔹 **Simple Definition:**
+
+> **Bash** is a program that lets you **type commands** to control your computer without using the mouse.
+
+---
+
+### ✅ **Key Features:**
+
+* Used to **run commands** like creating files, copying, moving, or deleting.
+* Supports **scripting**, so you can **automate tasks** with `.sh` files.
+* Built-in on **Linux**, **macOS**, and available for **Windows** (via WSL or Git Bash).
+
+---
+
+### 🧠 **Example Bash Commands:**
+
+```bash
+ls       # list files
+cd       # change directory
+mkdir    # make a new folder
+rm       # remove files/folders
+echo     # print text
+```
+
+---
+
+### 📜 **Example of a Bash Script:**
+
+```bash
+#!/bin/bash
+echo "Hello, Kanika!"
+mkdir my_folder
+cd my_folder
+touch file.txt
+```
+
+---
+
+### 🔁 **Why Bash is Important:**
+
+* Core part of **Linux system administration**.
+* Helps in **automation** (via shell scripting).
+* Essential for **DevOps**, **ethical hacking**, **software development**, and more.
+
+---
+
+Let me know if you want a **Bash cheat sheet** or beginner guide PDF!
+
 **2. Graphical User Interface (GUI) Shells**
 
 User interacts using windows, icons, and buttons
@@ -186,11 +241,11 @@ A file system structure is the way an operating system organizes and manages dat
 
 It defines:
 
-    How files are stored
+   * How files are stored
 
-    How folders (directories) are arranged
+   * How folders (directories) are arranged
 
-    How the system keeps track of file locations and permissions
+   * How the system keeps track of file locations and permissions
 
 The Linux file system is organized **like a tree**, starting from the **root** directory `/`.  
 All files and folders are inside this root, even if they are on different drives.
@@ -226,7 +281,42 @@ The file system structure is like a **digital cabinet** that helps the OS and us
 - Linux does **not** use drive letters like Windows (C:, D:) — everything is part of the same tree.
 
   -----
-  
+## 💽 What is Slash Full Disk in Linux?
+
+In Linux, when someone says **"slash full disk"** or **"/ is full"**, it means the **root directory (`/`)** has **no free space left**.
+
+---
+
+### ✅ What is `/` (Slash) in Linux?
+
+- `/` is called the **root directory**.
+- It is the **starting point** of the entire Linux file system.
+- All other folders like `/home`, `/etc`, `/bin`, etc., exist inside `/`.
+
+---
+
+### 🚨 What Does "Slash Full Disk" Mean?
+
+- The **main partition** of Linux (where it’s installed) is **completely full**.
+- No space is available to save files, install software, or update the system.
+
+---
+
+### ⚠️ Why Is It a Problem?
+
+- System becomes **slow** or may **crash**.
+- You can’t install or update software.
+- Some apps and services may stop working.
+
+---
+
+### 🛠️ How to Check If `/` Is Full?
+           df -h /
+          
+📌 Quick Summary
+|Term |	Meaning|
+| / (Slash)|	Root directory (main Linux filesystem)|
+|Slash Full Disk|	The root disk is full – no free space left|
 ## 🖥️ Basic Shell Commands in Linux (With Syntax)
 
 | Command | Description | Syntax | Example |
@@ -285,11 +375,148 @@ The file system structure is like a **digital cabinet** that helps the OS and us
 
 📌 Use these commands in the terminal to manage files, navigate folders, and control your Linux system.
 
-**To use terminal command Ctrl + Alt + T**
+**To use terminal command , Press Ctrl + Alt + T**
+
+## 🖥️ VMware vs VirtualBox – Simple Difference
+
+Both **VMware** and **VirtualBox** are **virtualization software**.  
+They let you **run another operating system** (like Linux) **inside your current OS** (like Windows), without removing or changing anything.
+
+---
+
+### ✅ What Do They Mean?
+
+| Software     | Meaning                                                                 |
+|--------------|-------------------------------------------------------------------------|
+| **VMware**   | A professional virtualization tool used for creating and managing VMs. |
+| **VirtualBox** | A free, open-source virtualization tool made by Oracle.                |
+
+---
+
+### 🔁 Main Difference :
+
+| Feature             | **VirtualBox**                          | **VMware**                              |
+|---------------------|-----------------------------------------|-----------------------------------------|
+| Cost                | ✅ Free (Open Source)                   | ⚠️ Some versions are paid (e.g., Workstation Pro) |
+| User Friendly       | ✅ Beginner-friendly                    | ✅ Professional features, less beginner-focused |
+| Performance         | ⚠️ Good but slightly lower             | 🚀 Generally faster and smoother         |
+| OS Support          | ✅ Windows, Linux, macOS                | ✅ Windows, Linux (macOS limited)         |
+| Ideal For           | Students, learners, open-source fans   | Professional users, enterprise setups   |
+
+---
+
+### 💡 Summary:
+
+> Both let you create **virtual machines (VMs)**.  
+> Use **VirtualBox** for learning and free use.  
+> Use **VMware** if you want more speed and pro features.
+
+## 📦 What is an ISO File?
+
+An **ISO file** (also called an **ISO image**) is a **complete copy or digital version of a CD, DVD, or other disk**, stored in a **single file**.  
+It contains **all the data, files, and folders** needed to create a full copy of the original disk.
+
+---
+
+### ✅ In Linux, What Is It Used For?
+
+- ISO files are used to **distribute operating systems** like **Ubuntu**, **Fedora**, **Kali**, etc.
+- You download the ISO file and then **write it to a USB drive** to install Linux on your system.
+
+---
+### 📌 Key Points:
+
+| Feature        | Description                                               |
+|----------------|-----------------------------------------------------------|
+| File Extension | `.iso`                                                    |
+| Contains       | Full copy of an OS or disk (bootable installer)           |
+| Common Use     | To install Linux, Windows, or other operating systems     |
+
+----
+
+## 🖥️ What is Bare Metal Installation in Linux?
+
+**Bare Metal Installation** means installing Linux **directly on a computer's hardware** — not inside any other operating system or virtual machine.
+
+You are installing Linux on a **fresh or empty computer**, just like installing Windows on a new laptop.
+
+---
+
+### ✅ Why is it called "Bare Metal"?
+
+Because the installation is done **on the actual physical machine** — the "bare metal" — without any layers like:
+
+- No Windows
+- No VirtualBox
+- No VMware
+
+---
+
+**🛠️ Simple Example: Installing Ubuntu on Bare Metal**
+
+#### 📌 Where Bare Metal is Used:
+
+- In **servers** (no need for Windows)
+- For **learning real Linux**
+- In **offices or companies** that use Linux systems
+- When you want **full performance** (no lag from virtual machines)
+
+---
+
+#### 🔁 Difference (Simple Table)
+
+| Feature           | Bare Metal Linux     | Virtual Machine Linux     |
+|------------------|----------------------|----------------------------|
+| Runs directly on hardware | ✅ Yes           | ❌ No (runs inside another OS) |
+| Needs Windows?   | ❌ No                 | ✅ Yes (as host OS)         |
+| Speed            | 🚀 Fast               | 🐢 Slower (shared resources) |
+| Good for         | Real use, servers     | Practice, testing          |
+
+---
+
+### 💡 Tip:
+
+> If you want to use Linux like a real system (not inside Windows), go for **bare metal installation**. It's faster and gives you full control over the machine.
 
 ---
 
 # Training Day :- 03
+
+---
+### 💾 What is a **Partitioning Scheme**?
+
+> A **partitioning scheme** is a method used to **organize a hard drive** into parts, so operating systems can manage and access data properly.
+
+---
+
+### 🔹 **Why Partitioning is Needed?**
+
+* To **install multiple OS** (e.g., Linux + Windows).
+* To **separate system files and personal files**.
+* For **better data management and backup**.
+* To **improve performance** and **security**.
+
+---
+
+### 🧱 **Common Partitioning Schemes:**
+
+| Scheme                           | Description                                   | Max Partitions | OS Support            |
+| -------------------------------- | --------------------------------------------- | -------------- | --------------------- |
+| **MBR** (Master Boot Record)     | Older scheme, supports BIOS booting           | 4 primary      | Windows, Linux        |
+| **GPT** (GUID Partition Table)   | Modern, supports UEFI booting and large disks | 128 primary    | Windows, Linux, macOS |
+| **LVM** (Logical Volume Manager) | Used in Linux, flexible for resizing          | Dynamic        | Linux only            |
+
+---
+
+### 📌 **Example:**
+
+When you install Linux:
+
+* You create a partition for **root (`/`)**
+* One for **home (`/home`)**
+* One for **swap**
+
+That setup is based on a **Linux partitioning scheme**.
 
 ---
 
@@ -300,8 +527,7 @@ Linux uses file permissions to control **who can read, write, or execute files a
 ---
 
 ### ✅ **1. `chmod` (Change File Permissions)**
-
-`chmod` is used to change read, write, and execute permissions of a file or directory.
+To **change file or directory permissions** in Linux for the owner, group, and others.
 
 #### 🔸 **Syntax**:
 
@@ -382,8 +608,8 @@ This is a safer option when sharing code in teams or on public systems.
 ### 🧪 **Examples**:
 
 #### 🔹 `chmod 444 file.txt`
+To make a file **read-only** for everyone (owner, group, and others). Prevents editing or deletion.
 
-* **Read-only for everyone**
 
 ```bash
 chmod 444 file.txt
@@ -393,7 +619,8 @@ chmod 444 file.txt
 
 #### 🔹 `chmod 644 file.txt`
 
-* **User: Read & Write, Others: Read-only**
+To allow the owner to **read and write**, and **group & others to only read**. Commonly used for text/config files.
+🔸 Now only the owner can edit, while others can only read the file.
 
 ```bash
 chmod 644 file.txt
