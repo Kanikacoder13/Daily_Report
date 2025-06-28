@@ -430,7 +430,9 @@ chown user:group file.txt
 ---
 
 > 🔁 **Quick Tip**:
+
 > `chmod` = change permissions
+
 > `chown` = change owner
 
 ---
@@ -440,14 +442,85 @@ In Linux, **redirection** is a powerful feature used to control **input and outp
 
 ### 🔄 Types of Redirection in Linux
 
-Redirection is used to control where input comes from and where output goes in the Linux command line.
+Redirection is used in Linux to control where input comes from and where output or error messages go. It helps in saving outputs to files, reading inputs from files, and managing errors effectively.
 
-|Operator|	Meaning|	Example|	Result|
-| >	|Output redirection	|ls > files.txt|	Saves output to files.txt (overwrites if it exists)|
-|>>	|Append output|	echo "Hello" >> notes.txt	|Adds "Hello" to end of notes.txt|
-|<	|Input redirection|	wc -l < notes.txt	|Reads input from notes.txt instead of keyboard|
+--
 
+| **Operator** | **Meaning**                    | **Example**                        | **Result**                                             |
+|--------------|--------------------------------|------------------------------------|--------------------------------------------------------|
+| `>`          | Output redirection             | `ls > files.txt`                   | Saves output to `files.txt` (overwrites if it exists)  |
+| `>>`         | Append output                  | `echo "Hello" >> notes.txt`        | Adds `"Hello"` to end of `notes.txt`                  |
+| `<`          | Input redirection              | `wc -l < notes.txt`                | Reads input from `notes.txt` instead of keyboard       |
 
+> 🧠 **Tip**: Use redirection to log outputs, handle errors gracefully, and automate input/output in shell scripts.
+
+## 📢 `echo` Command in Linux
+
+The `echo` command is used to **display text, strings, or variables** on the terminal. It’s one of the most commonly used commands in **shell scripting, logging, and debugging**.
+
+---
+
+### ✅ What Does `echo` Do?
+
+- Prints **text or output** to the screen.
+- Displays the value of **environment variables**.
+- Writes output to **files using redirection**.
+- Supports **escape characters** for formatting.
+
+---
+
+### 📌 Syntax:
+```bash
+echo [option] [string or variable]
+````
+
+---
+
+### 🔹 Basic Examples
+
+| **Command**          | **Description**            | **Output**           |
+| -------------------- | -------------------------- | -------------------- |
+| `echo Hello, Linux!` | Print a simple message     | `Hello, Linux!`      |
+| `echo $USER`         | Show current username      | `kanika` *(example)* |
+| `echo "Home: $HOME"` | Print environment variable | `Home: /home/kanika` |
+
+---
+
+### 📝 Writing to a File
+
+```bash
+echo "Log started" > log.txt
+```
+
+➡ Creates `log.txt` and writes `"Log started"` into it (overwrites if file exists)
+
+```bash
+echo "New entry" >> log.txt
+```
+
+➡ Appends `"New entry"` to the end of `log.txt`
+
+---
+
+### 🔍 Formatting Output with `-e` Flag
+
+Use `-e` to interpret special escape characters like new lines or tabs.
+
+| **Escape** | **Meaning** | **Example**                 | **Output**       |
+| ---------- | ----------- | --------------------------- | ---------------- |
+| `\n`       | New Line    | `echo -e "Line1\nLine2"`    | Line1 <br> Line2 |
+| `\t`       | Tab space   | `echo -e "Name:\tKanika"`   | Name: Kanika     |
+| `\\`       | Backslash   | `echo -e "Path: C:\\Users"` | Path: C:\Users   |
+
+---
+
+### 💡 Pro Tips
+
+* Use `echo` in shell scripts to print progress or debug messages.
+* Combine with `>` or `>>` for **logging** outputs to files.
+* Works with **variables**, **escape sequences**, and **redirection**.
+
+---
 
 
 
