@@ -791,9 +791,10 @@ Sorted version of the file content, line by line.
 
 ### Program 1 : To display name , age and city
 
+![alt text](nano(name).png)
+
 ![alt text](name.png)
 
-![alt text](nano(name).png)
 
 ### Program 2 : To print multiplication table
 
