@@ -552,9 +552,10 @@ The command `chmod +x filename.sh` is used to **add execute permission** to a fi
 | `filename.sh` | The name of the shell script file                            |
 
 ---
-![alt text](+x.png)
 
-![alt text](chmod+x.png)
+![alt text](chmod +x.png)
+
+![alt text](+x.png)
 
 
 ### ✅ Purpose
@@ -611,9 +612,12 @@ chmod 444 file.txt
 
 ⟶ `r-- r-- r--`
 
+
+
+![alt text](chmod 444.png)
+
 ![alt text](0.444.png)
 
-![alt text](chmod444.png)
 
 
 #### 🔹 `chmod 644 file.txt`
@@ -627,9 +631,9 @@ chmod 644 file.txt
 
 ⟶ `rw- r-- r--`
 
-![alt text](444.png)
+![alt text](chmod 644.png)
 
-![alt text](chmod644.png)
+![alt text](444.png)
 
 ### ✅ **2. `chown` (Change File Owner)** [ASSIGNMENT]
 
