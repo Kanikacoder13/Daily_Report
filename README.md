@@ -257,6 +257,117 @@ The file system structure is like a **digital cabinet** that helps the OS and us
 
 **To use terminal command Ctrl + Alt + T**
 
+# Training Day :- 03
+No problem! Here's the **complete, short, and attractive note** including `chmod`, `chmod 444`, `chmod 644`, and also `chown`, formatted for your **GitHub profile (Markdown)**:
+
+---
+
+## 🔐 Linux File Permission Commands – `chmod`, `chmod 444`, `chmod 644`, `chown`
+
+---
+
+### ✅ **1. `chmod` (Change File Permissions)**
+
+`chmod` is used to change read, write, and execute permissions of a file or directory.
+
+#### 🔸 **Syntax**:
+
+```bash
+chmod [permissions] [file_name]
+```
+**For example:** chmod + x filename.sh
+
+#### 🔢 **Octal Permission Codes**:
+
+| Number | Symbol | Meaning              |
+| ------ | ------ | -------------------- |
+| 7      | rwx    | Read, Write, Execute |
+| 6      | rw-    | Read, Write          |
+| 5      | r-x    | Read, Execute        |
+| 4      | r--    | Read only            |
+| 0      | ---    | No permissions       |
+
+---
+
+### 🧪 **Examples**:
+
+#### 🔹 `chmod 444 file.txt`
+
+* **Read-only for everyone**
+
+```bash
+chmod 444 file.txt
+```
+
+⟶ `r-- r-- r--`
+
+#### 🔹 `chmod 644 file.txt`
+
+* **User: Read & Write, Others: Read-only**
+
+```bash
+chmod 644 file.txt
+```
+
+⟶ `rw- r-- r--`
+
+#### 🔹 `chmod 755 script.sh`
+
+* **User: Full access, Others: Read & Execute**
+
+```bash
+chmod 755 script.sh
+```
+
+⟶ `rwx r-x r-x`
+
+---
+
+### ✅ **2. `chown` (Change File Owner)** [ASSIGNMENT]
+
+`chown` changes the **owner** or **group** of a file or directory.
+
+#### 🔸 **Syntax**:
+
+```bash
+chown [new_owner] [file_name]
+```
+
+#### 🔸 **Change Owner and Group**:
+
+```bash
+chown user:group file.txt
+```
+
+#### 🧪 **Example**:
+
+```bash
+chown kanika file.txt
+```
+
+⟶ Sets `kanika` as the new owner of `file.txt`
+
+---
+
+### 📎 **Check Permissions**:
+
+```bash
+ls -l file.txt
+```
+
+---
+
+> 🔁 **Quick Tip**:
+> `chmod` = change permissions
+> `chown` = change owner
+
+---
+
+Let me know if you want a visual table or icon-enhanced version for your GitHub README!
+
+
+
+
 
 
 
