@@ -553,7 +553,7 @@ The command `chmod +x filename.sh` is used to **add execute permission** to a fi
 
 ---
 
-![alt text](chmod +x.png)
+![alt text](chmod+x.png)
 
 ![alt text](+x.png)
 
@@ -573,9 +573,6 @@ Without execute permission, you'll see:
 bash: ./filename.sh: Permission denied
 
 ```
-
--
-
 ### 💡 Pro Tip
 
 To give execute permission **only to the file owner**, use:
@@ -614,7 +611,7 @@ chmod 444 file.txt
 
 
 
-![alt text](chmod 444.png)
+![alt text](chmod444.png)
 
 ![alt text](0.444.png)
 
@@ -631,7 +628,7 @@ chmod 644 file.txt
 
 ⟶ `rw- r-- r--`
 
-![alt text](chmod 644.png)
+![alt text](chmod644.png)
 
 ![alt text](444.png)
 
@@ -726,22 +723,6 @@ echo [option] [string or variable]
 | `echo Hello, Linux!` | Print a simple message     | `Hello, Linux!`      |
 | `echo $USER`         | Show current username      | `kanika` *(example)* |
 | `echo "Home: $HOME"` | Print environment variable | `Home: /home/kanika` |
-
----
-
-### 📝 Writing to a File
-
-```bash
-echo "Log started" > log.txt
-```
-
-➡ Creates `log.txt` and writes `"Log started"` into it (overwrites if file exists)
-
-```bash
-echo "New entry" >> log.txt
-```
-
-➡ Appends `"New entry"` to the end of `log.txt`
 
 ---
 
