@@ -92,20 +92,24 @@ When you switch on your computer, the system loads the operating system (like Wi
 🔄 1. **Cold Booting (Hard Booting):**
 
 ➡️ **Meaning**: Starting the computer when it is completely turned off.
+
 ➡️ **Example**: You press the **power button** to turn on your computer after it was shut down – that's **cold booting**.
 
 🔁 2. **Warm Booting (Soft Booting)**:
 
 ➡️ **Meaning**: Restarting the computer without turning off the power.
+
 ➡️ **Example**: You press **Ctrl + Alt + Del** or click **Restart** on Windows – that's **warm booting**.
 
 🔧 3. **Dual Booting**:
 ➡️ **Meaning**: Having **two operating systems** installed and choosing one to run.
+
 ➡️ **Example**: Your laptop has Windows and Linux installed. At startup, you choose which one to use.
 
 ☁️ 4. **Network Booting (PXE Booting)**:
 
 ➡️ **Meaning**: Booting a computer from a **network server** instead of **local storage**.
+
 ➡️ **Example**: In a computer lab, systems boot from the college server using a LAN cable.
 
 ---
