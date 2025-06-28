@@ -102,6 +102,7 @@ When you switch on your computer, the system loads the operating system (like Wi
 ➡️ **Example**: You press **Ctrl + Alt + Del** or click **Restart** on Windows – that's **warm booting**.
 
 🔧 3. **Dual Booting**:
+
 ➡️ **Meaning**: Having **two operating systems** installed and choosing one to run.
 
 ➡️ **Example**: Your laptop has Windows and Linux installed. At startup, you choose which one to use.
