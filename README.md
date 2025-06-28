@@ -552,6 +552,10 @@ The command `chmod +x filename.sh` is used to **add execute permission** to a fi
 | `filename.sh` | The name of the shell script file                            |
 
 ---
+![alt text](+x.png)
+
+![alt text](chmod+x.png)
+
 
 ### ✅ Purpose
 
@@ -566,20 +570,10 @@ Without execute permission, you'll see:
 
 ```
 bash: ./filename.sh: Permission denied
+
 ```
 
----
-
-### 🧪 Example
-
-```bash
-chmod +x install.sh
-./install.sh
-```
-
-✅ Now the script `install.sh` can be executed just like a program.
-
----
+-
 
 ### 💡 Pro Tip
 
@@ -617,6 +611,11 @@ chmod 444 file.txt
 
 ⟶ `r-- r-- r--`
 
+![alt text](0.444.png)
+
+![alt text](chmod444.png)
+
+
 #### 🔹 `chmod 644 file.txt`
 
 To allow the owner to **read and write**, and **group & others to only read**. Commonly used for text/config files.
@@ -628,6 +627,10 @@ chmod 644 file.txt
 
 ⟶ `rw- r-- r--`
 
+![alt text](444.png)
+
+![alt text](chmod644.png)
+
 ### ✅ **2. `chown` (Change File Owner)** [ASSIGNMENT]
 
 `chown` changes the **owner** or **group** of a file or directory.
@@ -638,6 +641,7 @@ chmod 644 file.txt
 ```bash
 chown [new_owner] [file_name]
 ```
+![alt text](chown.png)
 
 #### 🔸 **Change Owner and Group**:
 
@@ -801,11 +805,20 @@ Sorted version of the file content, line by line.
 ## Shell Programs
 
 ### Program 1 : To display name , age and city
+![alt text](nano(name).png)
+
+![alt text](name.png)
 
 ### Program 2 : To print multiplication table
+![alt text](nano(num).png)
+
+![alt text](num.png)
 
 ### Program 3 : To compare two numbers
 
+![alt text](nano(great).png)
+
+![alt text](great.png)
 
 
 
