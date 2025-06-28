@@ -247,23 +247,51 @@ The file system structure is like a **digital cabinet** that helps the OS and us
 | `exit` | Closes the terminal session | `exit` | `exit` |
 | `pwd` | Shows current directory path | `pwd` | `pwd` |
 
+**Point to remember** : **cd ..** (moves up one directory that means it will take out of that box and into the box it was placed inside)
+  **Example**:
+  If you are currently in: /home/user/documents/reports/
+  Typing cd .. will take you to: /home/user/documents/
+
 ---
 
 ![alt text](com1.jpg)
 
 ![alt text](com2.jpg)
 
+**nano** command :
+
+   - A text editor in linux
+   - Beginner-friendly
+   - Simple and clear
+
+*Important shortcut keys*:
+
+ - Ctrl + O → Save the file (O for Output)
+ - Ctrl + X → Exit
+ - Ctrl + K → Cut a line
+ - Ctrl + U → Paste
+
+**vi editor**:
+
+    It is also a text editor
+    The older, more powerful one
+    Comes pre-installed in all Linux systems
+    Harder for beginners
+
+
 📌 Use these commands in the terminal to manage files, navigate folders, and control your Linux system.
 
 **To use terminal command Ctrl + Alt + T**
 
+---
+
 # Training Day :- 03
-No problem! Here's the **complete, short, and attractive note** including `chmod`, `chmod 444`, `chmod 644`, and also `chown`, formatted for your **GitHub profile (Markdown)**:
 
 ---
 
 ## 🔐 Linux File Permission Commands – `chmod`, `chmod 444`, `chmod 644`, `chown`
 
+In Linux, controlling **who can access or modify files** is crucial for system security and user management. Every file and directory has **permissions** assigned to three types of users — **owner**, **group**, and **others**. These permissions determine whether a user can **read**, **write**, or **execute** the file.
 ---
 
 ### ✅ **1. `chmod` (Change File Permissions)**
@@ -311,18 +339,6 @@ chmod 644 file.txt
 
 ⟶ `rw- r-- r--`
 
-#### 🔹 `chmod 755 script.sh`
-
-* **User: Full access, Others: Read & Execute**
-
-```bash
-chmod 755 script.sh
-```
-
-⟶ `rwx r-x r-x`
-
----
-
 ### ✅ **2. `chown` (Change File Owner)** [ASSIGNMENT]
 
 `chown` changes the **owner** or **group** of a file or directory.
@@ -350,6 +366,9 @@ chown kanika file.txt
 ---
 
 ### 📎 **Check Permissions**:
+✅ Tip:
+
+Use ls -l to view current permissions:
 
 ```bash
 ls -l file.txt
@@ -363,7 +382,6 @@ ls -l file.txt
 
 ---
 
-Let me know if you want a visual table or icon-enhanced version for your GitHub README!
 
 
 
