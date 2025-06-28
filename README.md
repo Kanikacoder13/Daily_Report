@@ -247,8 +247,12 @@ The file system structure is like a **digital cabinet** that helps the OS and us
 | `exit` | Closes the terminal session | `exit` | `exit` |
 | `pwd` | Shows current directory path | `pwd` | `pwd` |
 
-**Point to remember** : **cd ..** (moves up one directory that means it will take out of that box and into the box it was placed inside)
-  **Example**:
+**Point to remember** : 
+    
+    **cd ..** (moves up one directory that means it will take out of that box and into the box it was placed inside)
+  
+**Example**:
+  
   If you are currently in: /home/user/documents/reports/
   Typing cd .. will take you to: /home/user/documents/
 
@@ -522,7 +526,59 @@ Use `-e` to interpret special escape characters like new lines or tabs.
 
 ---
 
+## 🚰 Pipe (`|`) in Linux
 
+In Linux, the **pipe operator (`|`)** is used to **pass the output of one command as input to another**.  
+It helps you build powerful command chains by combining simple commands to perform complex tasks.
+
+---
+
+### ✅ What Does a Pipe Do?
+
+- Connects **stdout (output)** of one command to the **stdin (input)** of another.
+- Helps create efficient **one-liners** without the need for intermediate files.
+- Commonly used in **filtering**, **sorting**, **counting**, and **processing data**.
+
+---
+
+### 📌 Syntax:
+
+```bash
+command1 | command2
+````
+
+➡ The output of `command1` becomes the input of `command2`.
+
+---
+**Example**: sort – Sort file content
+    cat file.txt | sort
+
+✅ What it does:
+
+  - Reads the content of file.txt
+  - Sorts the lines alphabetically using sort
+
+📤 Output:
+Sorted version of the file content, line by line.
+
+### 🧠 Pro Tips:
+
+* Pipes work **left to right**: output of the left command goes to the right.
+
+* You can **chain multiple pipes**
+
+## Shell Programs
+
+### Program 1 : To display name , age and city
+
+### Program 2 : To print multiplication table
+
+### Program 3 : To compare two numbers
+
+
+
+
+  
 
 
 
