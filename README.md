@@ -810,6 +810,19 @@ Sorted version of the file content, line by line.
 
 ![alt text](nano(great).png)
 
+## 📦 File Compression – Simple Explanation
+
+File compression is the process of **reducing the size of a file or group of files**. This is done to save storage space or make files easier and faster to transfer over the internet.
+🧠 Why Compress Files?
+
+    ✅ Saves disk space
+
+    ✅ Speeds up file transfer
+
+    ✅ Reduces bandwidth usage
+
+    ✅ Helps in organizing multiple files together (archiving)
+
 
 
   
