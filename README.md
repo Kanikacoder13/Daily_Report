@@ -772,6 +772,7 @@ command1 | command2
 
 ---
 **Example**: sort – Sort file content
+
     cat file.txt | sort
 
 ✅ What it does:
@@ -1071,19 +1072,33 @@ Hardware refers to the **physical components** of a computer — things you can 
 ## 🧩 2. Basic Hardware Component Flow (Diagram)
 
 CPU
+
  ↓
+ 
 Motherboard → Processor → Display Adapter
+
  ↓
+ 
 Cooling Fan
+
  ↓
+ 
 RAM
+
  ↓
+ 
 Hard Disk
+
  ↓
+ 
 DVD Drive
+
  ↓
+ 
 Floppy Disk
+
  ↓
+ 
 Power Supply
 
 ---
