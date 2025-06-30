@@ -874,6 +874,26 @@ File compression is the process of **reducing the size of a file or group of fil
 * Keeps the original file
 * Displays compression details
 
+#### 📁 Compressing Folders using 'tar' + 'gzip'
+
+Since gzip works on **individual files**, use 'tar' to archive folders first:
+
+#### 👉 Compress a directory:
+
+'tar -czvf archive.tar.gz foldername/'
+   
+  * c: Create archive
+
+  * z: Compress using gzip
+
+  * v: Verbose
+
+  * f: Output file name
+
+### 👉 Extract .tar.gz archive:
+
+'tar -xzvf archive.tar.gz'
+
 ### ✅ Advantages of `gzip`
 
 * Fast and efficient
@@ -889,7 +909,7 @@ File compression is the process of **reducing the size of a file or group of fil
 * Shows original size, compressed size, and compression ratio.
 
 ---
-## 🐧 Wildcards in Linux
+## 🐧 Wildcards ( globbing characters) in Linux
 
 **Wildcards** are special characters used in Linux shell (like Bash) to represent **multiple files or patterns**. They make it easier to **search, match, or operate on files/directories** without typing full names.
 
@@ -960,6 +980,7 @@ In Linux shell (like **bash**), **special characters** (such as `*`, `$`, `"`, `
 
 ---
 
+
 ## 🧪 Examples
 
 ### 👉 Prevent wildcard expansion:
@@ -982,7 +1003,7 @@ In Linux shell (like **bash**), **special characters** (such as `*`, `$`, `"`, `
 
 ---
 
-## 📝 Quoting in Linux 
+## 📝 Quoting in Linux [ASSIGNMENT] 
 
 In Linux, **quoting** is used to protect **special characters**, **spaces**, and **variables** from being changed or expanded by the shell.
 
@@ -1026,13 +1047,199 @@ Output: your_username
 
 > ✅ Tip: Always use quotes when your file names have spaces or special characters.
 
-## 🐚 What is Shell Scripting?
+### 🐚 What is Shell Scripting?
 
 **Shell scripting** is writing a **series of Linux/Unix commands** in a **text file** (called a script) so they can be **executed together automatically** by the shell.
 
 🧠 In Simple Words:
 
  A **shell script** is like a **recipe** — instead of typing each step (command) manually, you write them all in a file and run the file.
+
+ ----
+
+ ## Training Day :- 04
+
+ ### Hardware
+
+
+## 🧠 1. What is Computer Hardware?
+
+Hardware refers to the **physical components** of a computer — things you can **see and touch** like CPU, motherboard, RAM, hard disk, ports, etc.
+
+----
+
+## 🧩 2. Basic Hardware Component Flow (Diagram)
+
+CPU
+ ↓
+Motherboard → Processor → Display Adapter
+ ↓
+Cooling Fan
+ ↓
+RAM
+ ↓
+Hard Disk
+ ↓
+DVD Drive
+ ↓
+Floppy Disk
+ ↓
+Power Supply
+
+---
+
+## 🧠 3. Motherboard – Central Hub of the System
+
+The **motherboard** is the main printed circuit board that connects all parts of a computer.
+
+### Basic Structure of a Motherboard
+
+The motherboard is a flatboard made of printed circuits. It has many small parts on it. These parts include slots, sockets, and connectors. Each section of the motherboard has a specific role. **For example**:
+
+  - The **CPU socket** holds the central processing unit (CPU).
+  - RAM slots are used for memory modules.
+  - Other connectors help attach storage devices and graphics cards.
+
+    
+
+### Function of Motherboard
+
+The primary function of a motherboard is to provide a central platform where different components like the processor (CPU), memory modules (RAM), storage drives (HDD/SSD), and expansion cards can be integrated and work together seamlessly. It manages the data, instructions, and power flow between these connected devices.
+
+In simpler terms, you can think of a motherboard as the command centre that allows the different parts of a computer to talk to each other and function as a complete system. It houses vital components like the CPU socket (where the processor is installed), memory slots (for RAM modules), and various ports/interfaces to connect peripherals. The motherboard also distributes power from the power supply unit (PSU) to all the connected components.
+
+### 🔷 Key Components
+
+| Component              | Description                                   |
+| ---------------------- | --------------------------------------------- |
+| **CPU Socket**         | Holds the processor (brain of computer)       |
+| **Memory Slots (RAM)** | Slots for RAM chips (DDR4/DDR5)               |
+| **Expansion Slots**    | Add-ons like GPU, sound card, LAN adapter     |
+| **Chipset**            | Controls communication between CPU, RAM, I/O  |
+| ➤ Northbridge          | Connects CPU ↔ RAM, Graphics                  |
+| ➤ Southbridge          | Connects CPU ↔ I/O (USB, HDD, audio, etc.)    |
+| **BIOS Chip**          | Stores firmware to start the computer         |
+| **Power Connectors**   | Supplies power to motherboard from PSU        |
+| **Cooling System**     | Includes fan/heat sink to prevent overheating |
+
+> 🧠 If motherboard is faulty → **Replace ✔** (Not repair ❌)
+
+---
+
+## ⚡ 4. Power Supply (SMPS)
+
+* Converts **AC ↔ DC** (Switch Mode Power Supply)
+* Provides power to all components
+* Works with CMOS Battery to:
+
+  * Keep BIOS settings
+  * Maintain system clock even when PC is off
+
+---
+
+## ⚙️ 5. Booting Process (Power ON to OS)
+
+1. Power goes to ROM
+2. **Bootstrap loader** is activated
+3. OS is copied from **Hard Disk → RAM**
+4. CPU starts processing via **registers** and **cache**
+
+> ✅ This startup process is called **Booting**
+
+---
+
+## 📚 6. Memory Hierarchy
+
+| Memory Type      | Speed     | Size     | Use                          |
+| ---------------- | --------- | -------- | ---------------------------- |
+| **Registers**    | Fastest   | Smallest | CPU instruction handling     |
+| **Cache Memory** | Very Fast | Small    | Frequently used data for CPU |
+| **RAM**          | Fast      | Medium   | Temporary working memory     |
+| **Hard Disk**    | Slow      | Large    | Permanent storage            |
+
+---
+
+## ⚡ 7. Cache Memory
+
+* Between CPU and RAM
+* Holds **frequently accessed data**
+* Reduces speed mismatch
+* Saves CPU time by **fetching data faster than RAM**
+
+> ✅ Cache memory is **faster** than RAM
+> ✅ Most required data is kept in cache
+
+---
+
+## 💾 8. RAM Types
+
+| Type     | Full Form   | Feature                            |
+| -------- | ----------- | ---------------------------------- |
+| **SRAM** | Static RAM  | No refresh, fast, costly           |
+| **DRAM** | Dynamic RAM | Needs refresh, slower, widely used |
+
+---
+
+## 💿 9. Storage Devices
+
+| Device           | Use                                 |
+| ---------------- | ----------------------------------- |
+| **Hard Disk**    | Main permanent storage              |
+| **SSD**          | Faster version of HDD (Solid State) |
+| **DVD Drive**    | Optical disk reading                |
+| **Blu-ray Disc** | New version of DVD (double layer)   |
+| **Floppy Disk**  | Very old data storage               |
+| **Pen Drive**    | Portable data transfer              |
+
+---
+
+## 🌐 10. Input/Output Ports & Interfaces
+
+| Port/Device     | Purpose                                   |
+| --------------- | ----------------------------------------- |
+| **HDMI Port**   | High-quality video/audio output           |
+| **VGA Port**    | Old analog display (needs converter)      |
+| **LAN Adapter** | Connects to local network                 |
+| **NIC**         | Enables networking/internet               |
+| **USB Ports**   | Connects pen drives, keyboard, mouse etc. |
+| **Data Cables** | Usually copper wires used for transfer    |
+
+---
+
+## 🔧 11. BIOS, Firmware, and Drivers
+
+| Term          | Explanation                                    |
+| ------------- | ---------------------------------------------- |
+| **BIOS/UEFI** | Firmware stored in ROM; runs before OS starts  |
+| **Drivers**   | Utility software that enables hardware working |
+
+---
+
+## 🔌 12. Extra Hardware Concepts
+
+| Concept       | Description                                             |
+| ------------- | ------------------------------------------------------- |
+| **Modem**     | Converts analog ↔ digital signals                       |
+| **UPS**       | Backup power source (uses battery)                      |
+| **SMPS**      | Converts voltage (AC ↔ DC)                              |
+| **Bootstrap** | Startup instructions in ROM to load OS                  |
+| **Registers** | Tiny memory in CPU; faster than RAM, used for execution |
+
+---
+
+## 🧠 13. Chipset & Bridges (Detailed)
+
+| Bridge          | Function                                           |
+| --------------- | -------------------------------------------------- |
+| **Northbridge** | Connects CPU to RAM, GPU, cache                    |
+| **Southbridge** | Connects CPU to I/O devices like USB, HDD, network |
+
+🧩 These two bridges together form the **motherboard chipset** – managing data flow inside the system.
+
+
+
+```
+
 
 
 
