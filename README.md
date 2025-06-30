@@ -925,9 +925,9 @@ gzip -l filename.gz
 
 - Always **double-check** with `echo` or `ls` before using `rm` with wildcards:
 
-  echo *.txt  # safe check before deleting
+  * echo *.txt  # safe check before deleting
   
-  rm *.txt  # ← Use only if you're sure
+  * rm *.txt  # ← Use only if you're sure
 
 ---
 
@@ -935,8 +935,8 @@ gzip -l filename.gz
 
 If you want to **treat wildcards as normal characters**, use **backslash (`\`)** or quotes:
 
-echo "*.txt"      # Prints *.txt
-echo \*.txt       # Same result
+* echo "*.txt"      # Prints *.txt
+* echo \*.txt       # Same result
 
 ---
 
@@ -972,21 +972,21 @@ In Linux shell (like **bash**), **special characters** (such as `*`, `$`, `"`, `
 
 ### 👉 Prevent wildcard expansion:
 
-echo \*.txt
+* echo \*.txt
 
 📤 Output: `*.txt`
 
 ### 👉 Show a dollar sign without expanding the variable:
 
-echo \$PATH
+* echo \$PATH
 
 📤 Output: `$PATH`
 
 ### 👉 Use quotes to handle spaces:
 
-touch "My File.txt"
+* touch "My File.txt"
 
-ls My\ File.txt
+* ls My\ File.txt
 
 ---
 
@@ -1019,18 +1019,18 @@ In Linux, **quoting** is used to protect **special characters**, **spaces**, and
 ## 📚 Examples
 
 ### 👉 Handling spaces:
-```bash
-touch "My File.txt"
-ls My\ File.txt
-````
+
+* touch "My File.txt"
+* ls My\ File.txt
+
 
 ### 👉 Protecting variables:
 
-echo '$USER'
-# Output: $USER
+* echo '$USER'
+Output: $USER
 
-echo "$USER"
-# Output: your_username
+* echo "$USER"
+Output: your_username
 
 ---
 
