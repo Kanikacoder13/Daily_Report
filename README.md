@@ -314,7 +314,8 @@ In Linux, when someone says **"slash full disk"** or **"/ is full"**, it means t
            df -h /
           
 📌 Quick Summary
-|Term |	Meaning|
+|  Term  | Meaning |
+|--------|---------|
 | / (Slash)|	Root directory (main Linux filesystem)|
 |Slash Full Disk|	The root disk is full – no free space left|
 ## 🖥️ Basic Shell Commands in Linux (With Syntax)
