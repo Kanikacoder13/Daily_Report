@@ -810,7 +810,7 @@ Sorted version of the file content, line by line.
 
 ![alt text](nano(great).png)
 
-## 📦 File Compression – Simple Explanation
+## 📦 File Compression
 
 File compression is the process of **reducing the size of a file or group of files**. This is done to save storage space or make files easier and faster to transfer over the internet.
 
@@ -828,8 +828,6 @@ File compression is the process of **reducing the size of a file or group of fil
 
 `gzip` (GNU zip) is a popular **lossless file compression** utility used mainly in **Linux/Unix** systems. It uses the **DEFLATE** algorithm to reduce file size without losing data.
 
----
-
 ### 🔍 Purpose of `gzip`
 
 - Reduce file size to save disk space
@@ -844,17 +842,17 @@ File compression is the process of **reducing the size of a file or group of fil
 
 **gzip filename**
 
-    * Compresses filename to filename.gz
+ * Compresses filename to filename.gz
 
-    * Output: filename.gz
+ * Output: filename.gz
 
-    * By default, replaces the original file
+ * By default, replaces the original file
 
 ### 👉 Decompress a file
 
 **gunzip filename.gz**
 
-* Restores the original `filename`
+ * Restores the original `filename`
 
 ---
 
@@ -870,13 +868,11 @@ File compression is the process of **reducing the size of a file or group of fil
 
 ### 🔸 Example:
 
-gzip -kv myfile.txt
+**gzip -kv myfile.txt**
 
 * Compresses `myfile.txt` to `myfile.txt.gz`
 * Keeps the original file
 * Displays compression details
-
----
 
 ### ✅ Advantages of `gzip`
 
@@ -888,7 +884,7 @@ gzip -kv myfile.txt
 
 ### 📚 Bonus Tip (Check Compression Info)
 
-gzip -l filename.gz
+**gzip -l filename.gz**
 
 * Shows original size, compressed size, and compression ratio.
 
@@ -897,18 +893,16 @@ gzip -l filename.gz
 
 **Wildcards** are special characters used in Linux shell (like Bash) to represent **multiple files or patterns**. They make it easier to **search, match, or operate on files/directories** without typing full names.
 
----
-
 ### 🔑 Why Use Wildcards?
 
-| ✅ Benefit                   | 🔍 Description                                 |
+| ✅ Benefit                  |     🔍 Description                           |
 |-----------------------------|-----------------------------------------------|
 | **Save time**               | Operate on multiple files with one command    |
 | **Flexible file selection** | Match files by patterns (e.g., extensions)    |
 | **Automation**              | Useful in scripting and batch operations      |
 
 ---
-## 🐧 Wildcards in Linux – Combined Table
+## 🐧 Wildcards in Linux 
 
 | Wildcard | Meaning                                      | Example Command                        | Matches / Description                               |
 |----------|----------------------------------------------|----------------------------------------|-----------------------------------------------------|
@@ -923,7 +917,7 @@ gzip -l filename.gz
 
 ### 🚫 Caution
 
-- Always **double-check** with `echo` or `ls` before using `rm` with wildcards:
+Always **double-check** with `echo` or `ls` before using `rm` with wildcards:
 
   * echo *.txt  # safe check before deleting
   
@@ -935,16 +929,14 @@ gzip -l filename.gz
 
 If you want to **treat wildcards as normal characters**, use **backslash (`\`)** or quotes:
 
-* echo "*.txt"      # Prints *.txt
-* echo \*.txt       # Same result
+'echo "*.txt"'      # Prints *.txt
+' echo \*.txt'       # Same result
 
 ---
 
 ## 🛡️ Escaping Characters in Linux (Shell)
 
 In Linux shell (like **bash**), **special characters** (such as `*`, `$`, `"`, `'`, `\`) have **special meanings**. To use them as **normal text**, we need to **escape** them.
-
----
 
 ## 🔑 Why Escape Characters?
 
@@ -954,7 +946,7 @@ In Linux shell (like **bash**), **special characters** (such as `*`, `$`, `"`, `
 | Include spaces or special chars in file names | Handle `My File.txt` correctly |
 | Use variables literally (not expand `$`) | Display `$HOME` as text         |
 
----
+----
 
 ## ⚙️ Common Escape Methods
 
@@ -993,8 +985,6 @@ In Linux shell (like **bash**), **special characters** (such as `*`, `$`, `"`, `
 ## 📝 Quoting in Linux (Basic Explanation)
 
 In Linux, **quoting** is used to protect **special characters**, **spaces**, and **variables** from being changed or expanded by the shell.
-
----
 
 ### 📌 Why Use Quoting?
 
@@ -1035,6 +1025,14 @@ Output: your_username
 ---
 
 > ✅ Tip: Always use quotes when your file names have spaces or special characters.
+
+## 🐚 What is Shell Scripting?
+
+**Shell scripting** is writing a **series of Linux/Unix commands** in a **text file** (called a script) so they can be **executed together automatically** by the shell.
+
+🧠 In Simple Words:
+
+    A **shell script** is like a **recipe** — instead of typing each step (command) manually, you write them all in a file and run the file.
 
 
 
