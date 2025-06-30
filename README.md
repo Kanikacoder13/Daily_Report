@@ -1100,7 +1100,7 @@ The motherboard is a flatboard made of printed circuits. It has many small parts
   - RAM slots are used for memory modules.
   - Other connectors help attach storage devices and graphics cards.
 
-    
+![alt text](motherboard.png)
 
 ### Function of Motherboard
 
@@ -1157,6 +1157,8 @@ In simpler terms, you can think of a motherboard as the command centre that allo
 | **RAM**          | Fast      | Medium   | Temporary working memory     |
 | **Hard Disk**    | Slow      | Large    | Permanent storage            |
 
+  ![alt text](memory.png)
+
 ---
 
 ## ⚡ 7. Cache Memory
@@ -1168,6 +1170,16 @@ In simpler terms, you can think of a motherboard as the command centre that allo
 
 > ✅ Cache memory is **faster** than RAM
 > ✅ Most required data is kept in cache
+
+## 🧠 Why Do We Need Cache Memory? 
+
+1.  Cache memory reduces the speed gap between the fast CPU and slower main memory (RAM).  
+2.  It stores frequently accessed data and instructions for quicker access.  
+3.  It minimizes the time the CPU spends waiting for data, improving efficiency.  
+4.  It increases overall system performance by reducing memory access delays.  
+5.  It decreases the load on main memory by handling repeated data access.  
+6.  It speeds up the execution of loops and fu
+
 
 ---
 
@@ -1235,21 +1247,6 @@ In simpler terms, you can think of a motherboard as the command centre that allo
 | **Southbridge** | Connects CPU to I/O devices like USB, HDD, network |
 
 🧩 These two bridges together form the **motherboard chipset** – managing data flow inside the system.
-
-
-
-```
-
-
-
-
-
-
-  
-
-
-
-
 
 
 
