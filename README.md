@@ -919,9 +919,9 @@ File compression is the process of **reducing the size of a file or group of fil
 
 Always **double-check** with `echo` or `ls` before using `rm` with wildcards:
 
-  * echo *.txt  # safe check before deleting
+  * 'echo *.txt'  # safe check before deleting
   
-  * rm *.txt  # ← Use only if you're sure
+  * 'rm *.txt'  # ← Use only if you're sure
 
 ---
 
@@ -934,7 +934,7 @@ If you want to **treat wildcards as normal characters**, use **backslash (`\`)**
 
 ---
 
-## 🛡️ Escaping Characters in Linux (Shell)
+## 🛡️ Escaping Characters in Linux (Shell) [ASSIGNMENT]
 
 In Linux shell (like **bash**), **special characters** (such as `*`, `$`, `"`, `'`, `\`) have **special meanings**. To use them as **normal text**, we need to **escape** them.
 
@@ -982,7 +982,7 @@ In Linux shell (like **bash**), **special characters** (such as `*`, `$`, `"`, `
 
 ---
 
-## 📝 Quoting in Linux (Basic Explanation)
+## 📝 Quoting in Linux 
 
 In Linux, **quoting** is used to protect **special characters**, **spaces**, and **variables** from being changed or expanded by the shell.
 
@@ -1032,7 +1032,7 @@ Output: your_username
 
 🧠 In Simple Words:
 
-    A **shell script** is like a **recipe** — instead of typing each step (command) manually, you write them all in a file and run the file.
+ A **shell script** is like a **recipe** — instead of typing each step (command) manually, you write them all in a file and run the file.
 
 
 
