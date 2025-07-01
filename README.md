@@ -1069,7 +1069,7 @@ Hardware refers to the **physical components** of a computer — things you can 
 
 ----
 
-## 🧠 3. Motherboard – Central Hub of the System
+## 🧠 2. Motherboard – Central Hub of the System
 
 The **motherboard** is the main printed circuit board that connects all parts of a computer.
 
@@ -1107,7 +1107,7 @@ In simpler terms, you can think of a motherboard as the command centre that allo
 
 ---
 
-## ⚡ 4. Power Supply (SMPS)
+## ⚡ 3. Power Supply (SMPS)
 
 * Converts **AC ↔ DC** (Switch Mode Power Supply)
 * Provides power to all components
@@ -1118,7 +1118,7 @@ In simpler terms, you can think of a motherboard as the command centre that allo
 
 ---
 
-## ⚙️ 5. Booting Process (Power ON to OS)
+## ⚙️ 4. Booting Process (Power ON to OS)
 
 1. Power goes to ROM
 2. **Bootstrap loader** is activated
@@ -1129,7 +1129,7 @@ In simpler terms, you can think of a motherboard as the command centre that allo
 
 ---
 
-## 📚 6. Memory Hierarchy
+## 📚 5. Memory Hierarchy
 
 | Memory Type      | Speed     | Size     | Use                          |
 | ---------------- | --------- | -------- | ---------------------------- |
@@ -1142,7 +1142,7 @@ In simpler terms, you can think of a motherboard as the command centre that allo
 
 ---
 
-## ⚡ 7. Cache Memory
+## ⚡ 6. Cache Memory
 
 * Between CPU and RAM
 * Holds **frequently accessed data**
@@ -1164,7 +1164,7 @@ In simpler terms, you can think of a motherboard as the command centre that allo
 
 ---
 
-## 💾 8. RAM Types
+## 💾 7. RAM Types
 
 | Type     | Full Form   | Feature                            |
 | -------- | ----------- | ---------------------------------- |
@@ -1173,7 +1173,7 @@ In simpler terms, you can think of a motherboard as the command centre that allo
 
 ---
 
-## 💿 9. Storage Devices
+## 💿 8. Storage Devices
 
 | Device           | Use                                 |
 | ---------------- | ----------------------------------- |
@@ -1186,7 +1186,7 @@ In simpler terms, you can think of a motherboard as the command centre that allo
 
 ---
 
-## 🌐 10. Input/Output Ports & Interfaces
+## 🌐 9. Input/Output Ports & Interfaces
 
 | Port/Device     | Purpose                                   |
 | --------------- | ----------------------------------------- |
@@ -1199,7 +1199,7 @@ In simpler terms, you can think of a motherboard as the command centre that allo
 
 ---
 
-## 🔧 11. BIOS, Firmware, and Drivers
+## 🔧 10. BIOS, Firmware, and Drivers
 
 | Term          | Explanation                                    |
 | ------------- | ---------------------------------------------- |
@@ -1208,7 +1208,7 @@ In simpler terms, you can think of a motherboard as the command centre that allo
 
 ---
 
-## 🔌 12. Extra Hardware Concepts
+## 🔌 11. Extra Hardware Concepts
 
 | Concept       | Description                                             |
 | ------------- | ------------------------------------------------------- |
@@ -1220,7 +1220,7 @@ In simpler terms, you can think of a motherboard as the command centre that allo
 
 ---
 
-## 🧠 13. Chipset & Bridges (Detailed)
+## 🧠 12. Chipset & Bridges (Detailed)
 
 | Bridge          | Function                                           |
 | --------------- | -------------------------------------------------- |
