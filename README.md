@@ -1129,6 +1129,27 @@ In simpler terms, you can think of a motherboard as the command centre that allo
 
 ---
 
+# 🔌 What Happens When You Power On Your PC (Hardware Level)
+
+1. **Power supply starts**  
+   - Sends power to all components.
+
+2. **CPU wakes up**  
+   - Looks for instructions from BIOS/UEFI.
+
+3. **BIOS/UEFI runs**  
+   - Performs POST (Power-On Self-Test) to check hardware.
+
+4. **Boot device is found**  
+   - Searches for a bootable device like SSD/HDD.
+
+5. **Bootloader is loaded**  
+   - Loads a small program into RAM.
+
+6. **Operating system starts loading**  
+   - The OS kernel takes control and the system starts.
+
+
 ## 📚 5. Memory Hierarchy
 
 | Memory Type      | Speed     | Size     | Use                          |
