@@ -1397,7 +1397,7 @@ A 1TB Hard Disk partitioned as:
 - Try changing or reseating RAM
 - Replace faulty components if needed
 
-## 🔹 4. Boot Device Not Found / "No Bootable Device"
+#### 🔹 4. Boot Device Not Found / "No Bootable Device"
 **Cause:**
 - Hard drive not detected
 - Incorrect boot order in BIOS
@@ -1407,7 +1407,7 @@ A 1TB Hard Disk partitioned as:
 - Enter BIOS and set correct boot priority
 - Reinstall OS if necessary
 
-## 🔹 5. PC Keeps Restarting Automatically
+#### 🔹 5. PC Keeps Restarting Automatically
 **Cause:**
 - Overheating CPU or PSU
 - Loose RAM or power connection
@@ -1418,7 +1418,7 @@ A 1TB Hard Disk partitioned as:
 - Reseat RAM and power cables
 - Boot into safe mode and update drivers
 
-## 🔹 6. BIOS Not Loading / Frozen Logo Screen
+#### 🔹 6. BIOS Not Loading / Frozen Logo Screen
 
 **Cause:**
 - Corrupted BIOS or damaged motherboard
@@ -1863,7 +1863,95 @@ It forces the system to shut down or restart to prevent damage.
 
 > ⚠️ **Important Tip:** If BSOD happens repeatedly, it’s a sign of a deeper hardware or system-level issue and should be addressed immediately.
 
+---
 
+# BSOD & System Crash Analysis – Flowchart Summary
+
+---
+
+## BLUE SCREEN OF DEATH (BSOD)
+
+System Crash Detected  
+↓  
+Blue Screen Appears (BSOD)  
+↓  
+STOP Code is Displayed (e.g., IRQL_NOT_LESS_OR_EQUAL)  
+↓  
+System Automatically Restarts or Halts  
+
+---
+
+## WHY BSOD OCCURS
+
+- Driver Issues  
+↓  
+- Hardware Failures (RAM, HDD, Overheating)  
+↓  
+- Software Bugs or Failed Windows Updates  
+↓  
+- Corrupted System Files or Registry  
+↓  
+- Malware Infections  
+↓  
+- Low Disk Space or Sudden Power Failure  
+
+---
+
+## SYSTEM CRASH ANALYSIS
+
+**Step 1:** Note the STOP Code on the BSOD  
+
+↓  
+
+**Step 2:** Check Reliability Monitor  
+
+↓  
+
+**Step 3:** Open Event Viewer → View System Logs  
+
+↓  
+
+**Step 4:** Analyze Dump Files  
+
+- Location: `C:\Windows\Minidump\`  
+- Tools: BlueScreenView, WinDbg
+  
+↓  
+**Step 5:** Run Diagnostics  
+
+- Memory Test → `mdsched.exe`  
+- Disk Check → `chkdsk /f`  
+- System File Check → `sfc /scannow`
+
+---
+
+## HOW TO PREVENT BSOD
+
+- Keep Windows & Drivers Updated
+  
+↓  
+
+- Regular Malware Scanning
+  
+↓
+
+- Avoid Overheating and Overclocking  
+
+↓
+
+- Maintain Sufficient Disk Space  
+
+↓
+
+- Create System Restore Points  
+
+↓  
+
+- Use Reliable Power Supply  
+
+---
+
+**Tip:** If BSOD happens repeatedly, it usually indicates a hardware or OS-level issue that needs immediate attention.
 
 
 
