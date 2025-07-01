@@ -1865,11 +1865,11 @@ It forces the system to shut down or restart to prevent damage.
 
 ---
 
-# BSOD & System Crash Analysis – Flowchart Summary
+### BSOD & System Crash Analysis – Flowchart Summary
 
 ---
 
-## BLUE SCREEN OF DEATH (BSOD)
+#### BLUE SCREEN OF DEATH (BSOD)
 
 System Crash Detected  
 ↓  
@@ -1881,7 +1881,7 @@ System Automatically Restarts or Halts
 
 ---
 
-## WHY BSOD OCCURS
+#### WHY BSOD OCCURS
 
 - Driver Issues  
 ↓  
@@ -1897,63 +1897,42 @@ System Automatically Restarts or Halts
 
 ---
 
-## SYSTEM CRASH ANALYSIS
+#### SYSTEM CRASH ANALYSIS
 
 **Step 1:** Note the STOP Code on the BSOD  
-
 ↓  
-
 **Step 2:** Check Reliability Monitor  
-
 ↓  
-
 **Step 3:** Open Event Viewer → View System Logs  
-
 ↓  
-
 **Step 4:** Analyze Dump Files  
-
 - Location: `C:\Windows\Minidump\`  
-- Tools: BlueScreenView, WinDbg
-  
+- Tools: BlueScreenView, WinDbg  
 ↓  
 **Step 5:** Run Diagnostics  
-
 - Memory Test → `mdsched.exe`  
 - Disk Check → `chkdsk /f`  
 - System File Check → `sfc /scannow`
 
 ---
 
-## HOW TO PREVENT BSOD
+#### HOW TO PREVENT BSOD
 
-- Keep Windows & Drivers Updated
-  
+- Keep Windows & Drivers Updated  
 ↓  
-
-- Regular Malware Scanning
-  
-↓
-
+- Regular Malware Scanning  
+↓  
 - Avoid Overheating and Overclocking  
-
-↓
-
-- Maintain Sufficient Disk Space  
-
-↓
-
-- Create System Restore Points  
-
 ↓  
-
+- Maintain Sufficient Disk Space  
+↓  
+- Create System Restore Points  
+↓  
 - Use Reliable Power Supply  
 
 ---
 
 **Tip:** If BSOD happens repeatedly, it usually indicates a hardware or OS-level issue that needs immediate attention.
-
-
 
 
  
