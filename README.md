@@ -1069,40 +1069,6 @@ Hardware refers to the **physical components** of a computer — things you can 
 
 ----
 
-## 🧩 2. Basic Hardware Component Flow (Diagram)
-
-CPU
-
- ↓
- 
-Motherboard → Processor → Display Adapter
-
- ↓
- 
-Cooling Fan
-
- ↓
- 
-RAM
-
- ↓
- 
-Hard Disk
-
- ↓
- 
-DVD Drive
-
- ↓
- 
-Floppy Disk
-
- ↓
- 
-Power Supply
-
----
-
 ## 🧠 3. Motherboard – Central Hub of the System
 
 The **motherboard** is the main printed circuit board that connects all parts of a computer.
@@ -1193,7 +1159,7 @@ In simpler terms, you can think of a motherboard as the command centre that allo
 3.  It minimizes the time the CPU spends waiting for data, improving efficiency.  
 4.  It increases overall system performance by reducing memory access delays.  
 5.  It decreases the load on main memory by handling repeated data access.  
-6.  It speeds up the execution of loops and fu
+6.  It speeds up the execution of loops and functions by keeping them readily available.
 
 
 ---
