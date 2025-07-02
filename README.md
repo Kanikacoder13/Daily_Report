@@ -1934,6 +1934,8 @@ System Automatically Restarts or Halts
 
 **Tip:** If BSOD happens repeatedly, it usually indicates a hardware or OS-level issue that needs immediate attention.
 
+-----
+
 ## Training Day :- 06
 
 ### 🛡️ System Recovery and Security
@@ -1941,10 +1943,14 @@ System Automatically Restarts or Halts
 #### 🧯 1. Safe Mode
 
  A special mode in Windows that loads only essential files and drivers.
- 
-  **Purpose:**
-  
-  Used to diagnose and fix issues like system crashes, virus infections, or driver problems.
+ Used to diagnose and fix issues like system crashes, virus infections, or driver problems.
+
+  ##### 🔹 Purpose:
+
+* Fix system errors
+* Remove malware
+* Troubleshoot software/driver issues
+
 
 🔹 **When to Use**:
 
@@ -1956,7 +1962,7 @@ System Automatically Restarts or Halts
 
 
 
-### 🔸 Types of Safe Mode:
+##### 🔸 Types of Safe Mode:
 
 
 | **Type**                             | **Description**                                                              | **When to Use**                                                                             |
@@ -1966,7 +1972,7 @@ System Automatically Restarts or Halts
 | **3. Safe Mode with Command Prompt** | Loads a **command-line interface only** (no desktop).                        | For **advanced troubleshooting** using commands (SFC, DISM, etc.). Useful if GUI is broken. |
 
 
-### ⚙️ How to Access Safe Mode:
+##### ⚙️ How to Access Safe Mode:
 
 1. Go to **Settings → Recovery → Advanced Startup → Restart Now**
 2. Choose **Troubleshoot → Advanced Options → Startup Settings → Restart**
@@ -1977,59 +1983,22 @@ System Automatically Restarts or Halts
    * **F6** → Safe Mode with Command Prompt
 
 ---
-Sure! Below is the **combined Markdown version** of your **previous two searches**:
 
----
-
-# 🛠️ SYSTEM RECOVERY, SAFE MODE, BACKUP & VIRUS REMOVAL
-
----
-
-## 🔐 1. Safe Mode
-
-> Safe Mode starts Windows with **only essential drivers and services**.
-
-### 🔹 Purpose:
-
-* Fix system errors
-* Remove malware
-* Troubleshoot software/driver issues
-
-### 🔹 Types of Safe Mode:
-
-| Type                              | Description                                            |
-| --------------------------------- | ------------------------------------------------------ |
-| **Safe Mode**                     | Basic mode without internet                            |
-| **Safe Mode with Networking**     | Adds network drivers for internet                      |
-| **Safe Mode with Command Prompt** | Loads only Command Prompt for advanced troubleshooting |
-
-### 🔹 How to Access:
-
-1. Go to: `Settings → Update & Security → Recovery → Advanced Startup → Restart Now`
-2. Then: `Troubleshoot → Advanced Options → Startup Settings → Restart`
-3. Press:
-
-   * `F4` → Safe Mode
-   * `F5` → Safe Mode with Networking
-   * `F6` → Safe Mode with Command Prompt
-
----
-
-## 🧰 2. Recovery Tools
+#### 🧰 2. Recovery Tools
 
 > Tools to **repair, restore, or reset** your system in case of problems.
 
-### 🔹 Purpose:
+##### 🔹 Purpose:
 
 * Fix system errors or boot issues
 * Revert to previous state
 * Reinstall or reset Windows
 
-### 🔹 Common Recovery Tools:
+##### 🔹 Common Recovery Tools:
 
 | Tool                             | Use                                      |
 | -------------------------------- | ---------------------------------------- |
-| **System Restore**               | Reverts system to a restore point        |
+| **System Restore**               | Roll back to an earlier working state     |
 | **Startup Repair**               | Fixes booting problems                   |
 | **Reset This PC**                | Reinstalls Windows (with/without files)  |
 | **Installation Media (USB/DVD)** | Reinstalls or repairs Windows externally |
@@ -2037,11 +2006,11 @@ Sure! Below is the **combined Markdown version** of your **previous two searches
 
 ---
 
-### 🛠️ 3. OS Repair
+#### 🛠️ 3. OS Repair
 
 > Fixes system corruption **without reinstalling Windows**.
 
-#### 💽 3. OS Repair Methods
+##### 💽 3. OS Repair Methods
 
 - **Using Installation Media:**  
   Boot from USB or DVD to repair or reinstall Windows.
@@ -2057,11 +2026,8 @@ Sure! Below is the **combined Markdown version** of your **previous two searches
   Command: `DISM /Online /Cleanup-Image /RestoreHealth`  
   Repairs the Windows image and resolves deep system issues.
 
-Sure! Here's the **"Backup After OS Repair – Key Points"** written in proper **Markdown format** for your notes or GitHub:
 
----
-
-## ✅ Backup After OS Repair – Key Points
+##### ✅ Backup After OS Repair – Key Points
 
 * ✅ **Ensure the system is stable** after repair (check for normal functioning).
 * 📁 **Locate and organize** all important files:
@@ -2070,7 +2036,8 @@ Sure! Here's the **"Backup After OS Repair – Key Points"** written in proper *
   * Desktop files
   * Downloads
   * Photos, videos, project folders
-* 💽 **Choose a backup method:**
+    
+ 💽 **Choose a backup method:**
 
   * **External Storage** (USB, HDD, SSD)
   * **Cloud Backup** (Google Drive, OneDrive, Dropbox)
@@ -2083,51 +2050,107 @@ Sure! Here's the **"Backup After OS Repair – Key Points"** written in proper *
 * 🔍 **Verify backup files** by opening a few to ensure they work.
 * 🔁 **Set up automatic/scheduled backup** (for regular future safety).
 
+  ##### 🧠 Why Backup After OS Repair?
+
+    You already had system trouble — it could happen again.
+
+    Avoid data loss in future crashes or malware attacks.
+
+    Makes next recovery easier and faster.
+
+---
+Sure! Here's a **simple and basic version** of **Plugins** in clean **Markdown format**, with only the **essential and required information**:
+
 ---
 
-Let me know if you'd like this combined with earlier content into one complete file!
+#### 🔌 Plugins 
 
+* A **plugin** is a small software that **adds extra features** to a larger program.
+* It **extends functionality** without changing the main software.
+* Common in browsers, audio software, websites, and IDEs.
 
-## 🦠 4. Virus & Malware Symptoms
+#### 📌 Examples:
+
+* **Browser plugin** → AdBlock (blocks ads)
+* **WordPress plugin** → Contact Form (adds form)
+* **VS Code plugin** → Python extension (adds language support)
+* **Audio plugin** → Reverb (adds sound effect)
+
+#### ✅ Key Points:
+
+* Easy to **install/uninstall**
+* Used for **customization**
+* Should be from **trusted sources**
+* May cause issues if **incompatible or outdated**
+
+> 🔁 Plugins = Add-on features for apps
+
+---
+
+#### 🦠 4. Virus & Malware Symptoms
 
 > Signs that indicate **malware infection** on your PC.
 
-### 🔹 Common Symptoms:
+##### 🔹 Common Symptoms:
 
-Common Symptoms:
+  | Symptom            | Description                                               |
+|---------------------|-----------------------------------------------------------|
+| Slow performance    | Programs take longer to open or freeze frequently.        |
+| Frequent crashes    | System restarts or shuts down unexpectedly.               |
+| Pop-ups and ads     | Unexpected ads or pop-ups even when no browser is open.   |
+| Unknown apps or toolbar installed   | Unfamiliar apps appear on the system.                     |
+| High CPU usage      | Task Manager shows high usage without any known reason.   |
 
-- PC is unusually slow
-- Frequent crashes or error messages
-- Pop-ups or ads appear randomly
-- Unknown apps or toolbars installed
+**Other symptoms are :**
+
 - Antivirus software is disabled
 - Files are missing or encrypted
 - Browser redirects automatically
 
-## 🧹 5. Basic Malware Removal Steps
+#### 🧹 5. Basic Malware Removal Steps
 
 > Steps to **remove malware or virus** safely.
 
-### ✅ Step-by-Step:
+##### ✅ Step-by-Step:
 
 1. **Disconnect Internet**
 2. **Boot into Safe Mode**
 3. **Run antivirus/anti-malware scan**
+4. 
    ➤ Use Windows Defender or Malwarebytes
-4. **Uninstall unknown programs**
-5. **Delete temp files**
+5. **Uninstall unknown programs**
+6. **Delete temp files**
+7. 
    ➤ Use `Disk Cleanup` or `%temp%`
-6. **Check browser extensions/settings**
-7. **Update Windows & drivers**
-8. **Change passwords**
+8. **Check browser extensions/settings**
+9. **Update Windows & drivers**
+10. **Change passwords**
+
+##### 🛡️ Basic Tips to Protect Your System from Malware
+
+* **Keep your system and software updated**
+* **Use trusted antivirus or anti-malware software**
+* **Avoid clicking on unknown links or email attachments**
+* **Download software only from trusted websites**
+* **Do not use pirated or cracked software**
+* **Backup your important data regularly**
+
+---
+##### 💾 Where Should You Keep Your Windows Storage?
+
+* ✅ **Install Windows in C: drive** (default system partition)
+* ✅ **Store personal files in D: or E: drive** (keeps data safe)
+* ❌ **Avoid filling C: drive with large files or games**
+* ✅ **Keep C: drive clean for better performance**
+* ✅ **Use external drives for backup or extra storage**
 
 ---
 
-## 💾 6. Various Ways of Backup of Important Files
+#### 💾 6. Various Ways of Backup of Important Files
 
 > Backups help **prevent data loss** due to virus, crash, or mistakes.
 
-### 🔹 Backup Methods:
+##### 🔹 Backup Methods:
 
 | Method                 | Description                                       | Pros            | Cons                   |
 | ---------------------- | ------------------------------------------------- | --------------- | ---------------------- |
@@ -2138,9 +2161,20 @@ Common Symptoms:
 | **Scheduled Backup**   | Automatic, regular backups                        | Hands-free      | Needs setup            |
 | **3rd-Party Software** | Advanced tools (Acronis, EaseUS)                  | Extra features  | Some are paid          |
 
+
+##### ⚠️ Things to Avoid Regarding Backup
+
+*  **Not backing up at all**
+*  **Storing backups only on the same drive as original files**
+*  **Using unreliable or cheap storage devices**
+*  **Forgetting to back up regularly**
+*  **Not verifying if the backup actually works**
+*  **Keeping backup devices connected all the time (risk of virus infection)**
+*  **Not encrypting sensitive backup data**
+
 ---
 
-## 🔁 Summary Table
+#### 🔁 Summary Table
 
 | Section              | Purpose                | Tools/Commands                 |
 | -------------------- | ---------------------- | ------------------------------ |
@@ -2153,49 +2187,74 @@ Common Symptoms:
 
 ---
 
+### 🔌 Networking Basics: RJ45, CAT Cable & Crimping Tool
 
+#### 🧷 RJ45 Connector
 
-## 💽 3. OS Repair Methods
+- **RJ45** stands for **Registered Jack 45**
+- It is an **8-pin connector** used to connect **Ethernet cables** to networking devices
+- Commonly used in **LAN (Local Area Network)** setups
+- Plugs into:
+  - Routers  
+  - Switches  
+  - Network Interface Cards (NICs)
 
-- **Using Installation Media:**  
-  Boot from USB or DVD to repair or reinstall Windows.
-
-- **Startup Repair Tool:**  
-  Automatically detects and fixes startup problems.
-
-- **SFC (System File Checker):**  
-  Command: `sfc /scannow`  
-  Scans and repairs corrupted system files.
-
-- **DISM Tool:**  
-  Command: `DISM /Online /Cleanup-Image /RestoreHealth`  
-  Repairs the Windows image and resolves deep system issues.
-
----
-
-## 🦠 4. Virus and Malware Symptoms
-
-| Symptom            | Description                                               |
-|---------------------|-----------------------------------------------------------|
-| Slow performance    | Programs take longer to open or freeze frequently.        |
-| Frequent crashes    | System restarts or shuts down unexpectedly.               |
-| Pop-ups and ads     | Unexpected ads or pop-ups even when no browser is open.   |
-| Unknown programs    | Unfamiliar apps appear on the system.                     |
-| High CPU usage      | Task Manager shows high usage without any known reason.   |
+##### 🔹 Key Features:
+- 8 metal pins inside (for 8 wires)
+- Works with CAT5/CAT6 cables
+- Looks like a wider telephone jack
 
 ---
 
-## 🧹 5. Basic Malware Removal
+#### 🧵 CAT Cable (Ethernet Cable)
 
-**Steps:**
-1. **Boot into Safe Mode**
-2. **Run Antivirus/Antimalware Scan**  
-   _(e.g., Windows Defender, Malwarebytes)_
-3. **Uninstall Suspicious Applications**
-4. **Clear Browser Cache and Extensions**
-5. **Update Windows and All Security Patches**
-6. **Use System Restore** _(if system becomes unstable)_
+- **CAT** = **Category** (e.g., CAT5, CAT6)
+- Carries data over network connections
+- Contains **8 color-coded wires (4 twisted pairs)**
+
+##### 🔹 Common Types of CAT Cables:
+
+| Category | Speed      | Max Distance |
+|----------|------------|--------------|
+| CAT5     | 100 Mbps   | 100 meters   |
+| CAT5e    | 1 Gbps     | 100 meters   |
+| CAT6     | 1–10 Gbps  | 55–100 meters|
+| CAT6a    | 10 Gbps    | 100 meters   |
+
+> **CAT5e** and **CAT6** are most commonly used in homes and offices today.
 
 ---
 
- 
+#### 🔧 Crimping Tool
+
+- Used to **attach RJ45 connectors** to CAT cables
+- It **presses the pins** inside the connector into the wires
+
+##### 🔹 Functions:
+- Strips outer cable jacket
+- Arranges and trims wires
+- Crimps connector securely onto cable
+
+##### ✅ Crimping Steps:
+1. Strip ~1 inch of cable jacket  
+2. Untwist & arrange wires in correct order (e.g., T568B)  
+3. Cut wires evenly  
+4. Insert wires into RJ45 connector  
+5. Use crimping tool to secure the connection
+
+---
+
+#### 📌 Summary Table
+
+| Item            | Purpose                          | Key Info                |
+|-----------------|----------------------------------|--------------------------|
+| **RJ45**        | Connects Ethernet to device      | 8-pin connector          |
+| **CAT Cable**   | Transmits data in LAN            | 4 twisted wire pairs     |
+| **Crimping Tool**| Attaches RJ45 to CAT cable       | Strips, cuts, crimps     |
+
+---
+
+> ✅ These components are **essential for basic networking**, LAN setup, and cable repair.
+
+
+
