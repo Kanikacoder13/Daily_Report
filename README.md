@@ -1869,7 +1869,7 @@ It forces the system to shut down or restart to prevent damage.
 
 ---
 
-#### BLUE SCREEN OF DEATH (BSOD)
+* #### BLUE SCREEN OF DEATH (BSOD)
 
 System Crash Detected  
 ↓  
@@ -1899,27 +1899,6 @@ System Automatically Restarts or Halts
 
 ![alt text](bsod2.png)
 
----
-
-#### SYSTEM CRASH ANALYSIS
-
-**Step 1:** Note the STOP Code on the BSOD  
-↓  
-**Step 2:** Check Reliability Monitor  
-↓  
-**Step 3:** Open Event Viewer → View System Logs  
-↓  
-**Step 4:** Analyze Dump Files  
-- Location: `C:\Windows\Minidump\`  
-- Tools: BlueScreenView, WinDbg  
-↓  
-**Step 5:** Run Diagnostics  
-- Memory Test → `mdsched.exe`  
-- Disk Check → `chkdsk /f`  
-- System File Check → `sfc /scannow`
-
----
-
 #### HOW TO PREVENT BSOD
 
 - Keep Windows & Drivers Updated  
@@ -1936,9 +1915,31 @@ System Automatically Restarts or Halts
 
 ---
 
-**Tip:** If BSOD happens repeatedly, it usually indicates a hardware or OS-level issue that needs immediate attention.
+* #### SYSTEM CRASH ANALYSIS
+
+**Step 1:** Note the STOP Code on the BSOD  
+↓  
+**Step 2:** Check Reliability Monitor  
+↓  
+**Step 3:** Open Event Viewer → View System Logs  
+↓  
+**Step 4:** Analyze Dump Files  
+- Location: `C:\Windows\Minidump\`  
+- Tools: BlueScreenView, WinDbg  
+↓  
+**Step 5:** Run Diagnostics  
+- Memory Test → `mdsched.exe`  
+- Disk Check → `chkdsk /f`  
+- System File Check → `sfc /scannow`
+
+----
+
+* **Tip:** If BSOD happens repeatedly, it usually indicates a hardware or OS-level issue that needs immediate attention.
 
 -----
+
+
+---
 
 ## Training Day :- 06
 
