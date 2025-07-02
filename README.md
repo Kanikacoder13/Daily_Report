@@ -1893,7 +1893,11 @@ System Automatically Restarts or Halts
 ↓  
 - Malware Infections  
 ↓  
-- Low Disk Space or Sudden Power Failure  
+- Low Disk Space or Sudden Power Failure
+
+![alt text](bsod1.png)
+
+![alt text](bsod2.png)
 
 ---
 
@@ -2059,10 +2063,6 @@ System Automatically Restarts or Halts
     Makes next recovery easier and faster.
 
 ---
-Sure! Here's a **simple and basic version** of **Plugins** in clean **Markdown format**, with only the **essential and required information**:
-
----
-
 #### 🔌 Plugins 
 
 * A **plugin** is a small software that **adds extra features** to a larger program.
@@ -2136,6 +2136,7 @@ Sure! Here's a **simple and basic version** of **Plugins** in clean **Markdown f
 * **Backup your important data regularly**
 
 ---
+
 ##### 💾 Where Should You Keep Your Windows Storage?
 
 * ✅ **Install Windows in C: drive** (default system partition)
@@ -2255,6 +2256,8 @@ Sure! Here's a **simple and basic version** of **Plugins** in clean **Markdown f
 ---
 
 > ✅ These components are **essential for basic networking**, LAN setup, and cable repair.
+
+-----
 
 
 
