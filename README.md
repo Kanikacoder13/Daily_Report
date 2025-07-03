@@ -1450,53 +1450,51 @@ A 1TB Hard Disk partitioned as:
 
 ### 🐢 Why is My PC Running Slow? — Issues and Reasons
 
-#### 1. 💼 Too Many Apps Running
-
+#### 1. Too Many Apps Running
 - When many programs are open at the same time, your PC gets tired and slows down.
 
-#### 2. 🧠 Low Memory (RAM)
-
+#### 2. Low Memory (RAM)
 - Your PC doesn't have enough memory to do all tasks quickly.
 
-#### 3. 💽 Fragmented or Full Hard Drive
+#### 3. Fragmented or Full Hard Drive
 - When your storage is almost full, it takes longer to find and open files.
 
-#### 4. 🔍 Too Many Background Programs
+#### 4. Too Many Background Programs
 - Some apps keep running even when you're not using them.
 
-#### 5. 🦠 Virus or Malware
+#### 5. Virus or Malware
 - Viruses can secretly use your PC and make it slow.
 
-#### 6. 🕰️ Old or Slow Hardware
+#### 6. Old or Slow Hardware
 - Old PCs or hard drives naturally work slower over time.
 
-#### 7. 🔄 Not Restarted for Long Time
+#### 7. Not Restarted for Long Time
 - If your PC stays on for many days, it can slow down.
 
-#### 8. 🌡️ PC is Overheating
+#### 8. PC is Overheating
 - If your PC gets too hot, it lowers speed to cool down.
 
-#### 9. 📦 Too Much Junk/Temporary Files
+#### 9. Too Much Junk/Temporary Files
 - Unwanted files pile up and slow the system.
 
-#### 10. 🌐 Too Many Tabs Open in Browser
+#### 10. Too Many Tabs Open in Browser
 - Opening many browser tabs uses more memory.
 
-#### 11. ⏳ Windows or Software Not Updated
+#### 11. Windows or Software Not Updated
 - Old versions can have bugs and slow performance.
 
-#### 12. 🎨 Too Many Visual Effects
+#### 12. Too Many Visual Effects
 - Fancy animations and effects make old PCs slow.
 
 ### 🧠 Additional Simple & Smart Tips
 
-#### 🗂️ Keep Desktop Clean
+#### Keep Desktop Clean
 - Having too many files on the desktop slows down boot time and refresh speed.
 
-#### 📉 Remove Unnecessary Icons from Taskbar
+#### Remove Unnecessary Icons from Taskbar
 - Too many taskbar icons use memory in the background.
 
-#### ❌ Avoid Too Many Bookmarks in Browser
+#### Avoid Too Many Bookmarks in Browser
 - Excessive bookmarks can slow down the browser, especially during sync.
 
 ---
@@ -2044,11 +2042,11 @@ System Automatically Restarts or Halts
     
  💽 **Choose a backup method:**
 
-  * **External Storage** (USB, HDD, SSD)
-  * **Cloud Backup** (Google Drive, OneDrive, Dropbox)
-  * **File History** (Windows built-in backup tool)
-  * **System Image Backup**
-  * **Third-party backup software** (EaseUS, Macrium Reflect, Acronis)
+* **External Storage** (USB, HDD, SSD)
+* **Cloud Backup** (Google Drive, OneDrive, Dropbox)
+* **File History** (Windows built-in backup tool)
+* **System Image Backup**
+* **Third-party backup software** (EaseUS, Macrium Reflect, Acronis)
 * 📤 **Manually copy** files or use backup tools for automation.
 * 🏷️ **Label backup folder or drive** clearly (e.g., "Backup\_July2025").
 * 🔐 **Store backups safely** (offline + online preferred).
@@ -2209,6 +2207,8 @@ System Automatically Restarts or Halts
 ---
 
 #### 🧵 CAT Cable (Ethernet Cable)
+**CAT (Category) wire** refers to a type of twisted pair cable used mainly for **networking and data transmission**.
+Used in broadband connection and telephone connection.
 
 - **CAT** = **Category** (e.g., CAT5, CAT6)
 - Carries data over network connections
@@ -2264,12 +2264,9 @@ System Automatically Restarts or Halts
 
 RJ45 connectors are used to terminate Ethernet cables (Cat5e, Cat6, etc.) for wired networking. The color order of the wires must follow a standard to ensure proper communication.
 
----
-
 ### 📘 Wiring Standards
 
  standard color codes used for wiring RJ45 connectors:
-
 
 #### 🟧 T568B Wiring Standard (Most Common)
 
@@ -2283,8 +2280,6 @@ RJ45 connectors are used to terminate Ethernet cables (Cat5e, Cat6, etc.) for wi
 | 6   | Green          |
 | 7   | White/Brown    |
 | 8   | Brown          |
-
----
 
 #### 🔄 Wire Arrangement (Left to Right)
 
@@ -2323,7 +2318,733 @@ WO  O   WG  B   WB  G   WBn Bn
 
 ---
 
+### 🔌 Types of Cables in Networking
+
+-----
+
+#### ✅ 1. Twisted Pair Cable
+
+- Most commonly used in homes, offices, and LANs.
+- Wires are **twisted in pairs** to reduce interference.
+
+##### Types:
+| Type         | Description                          | Speed Example        |
+|--------------|--------------------------------------|----------------------|
+| UTP (Unshielded Twisted Pair) | No outer shielding, cheaper, used in LAN | Cat5, Cat6 cables     |
+| STP (Shielded Twisted Pair)   | Has shielding for extra protection       | Used in industries    |
+
+> 🧪 Example: Ethernet cable (RJ45)
+
+---
+
+#### ✅ 2. Coaxial Cable
+
+- Has a **single copper wire in the center**.
+- Covered by insulation and metal shield.
+- Used in **TV cables, CCTV**, and older networks.
+
+##### Features:
+- Better shielding than twisted pair.
+- Not used much today in new networks.
+
+> 🧪 Example: Cable TV wire
+
+---
+
+#### ✅ 3. Fiber Optic Cable
+
+- Made of **glass or plastic fibers**.
+- Uses **light signals** to transfer data.
+- Very **fast**, used for **long distances and high-speed internet**.
+
+##### Features:
+- No electrical interference
+- Expensive but very high-speed
+
+> 🧪 Example: Used by ISPs for broadband or backbone connections
+
+---
+
+#### 🔁 Quick Comparison Table
+
+| Cable Type       | Speed         | Distance     | Cost      | Usage                      |
+|------------------|---------------|--------------|-----------|----------------------------|
+| Twisted Pair     | Medium (up to 1 Gbps) | Short (100 m) | Low       | Home/office LAN (Cat5/Cat6) |
+| Coaxial Cable     | Low/Medium    | Medium        | Medium    | TV, CCTV, old networks      |
+| Fiber Optic       | Very High     | Very Long     | High      | Internet backbone, ISPs     |
+
+---
+
+> ✅ Tip:  
+> - Use **Twisted Pair (Cat5/Cat6)** for home/office LAN.  
+> - Use **Fiber Optic** for fast internet and long distances.
+
+---
+
+## Training Day :- 07
+
+### Welcome to networking basics 
+
+----
+
+#### 🖥️ What is a Host in Networking?
+
+A **host** is any device that connects to a **network** and can **send or receive data**.
+
+##### 💡 Simple Definition:
+> A **host** is a device on a network that has an **IP address** and can **communicate with other devices**.
+
+##### ✅ Examples of Hosts:
+- Computers (laptops/desktops)
+- Smartphones
+- Servers
+- Printers
+- Smart TVs
+- Any device with an **IP address**
+
+---
+
+**IoT (Internet of Things)** is a network of **connected physical devices** that can collect, send, and receive data over the **internet** without human involvement.
+
+ Also any **Internet of Things (IoT)** devices
+- TV
+- Thermometers
+- Speakers
+- Lights
+- Smart Watches
+- Refrigerator
+
+---
+
+##### 🧠 Key Points:
+- Every host must have a **unique IP address**
+- Hosts can be:
+  - **Clients** (e.g., your PC)
+  - **Servers** (e.g., Google’s web server)
+- Hosts can **send**, **receive**, or **request** information
+
+---
+##### 🧠 In IP addressing:
+- The **network part** of the IP address identifies the **network**.
+- The **host part** identifies the **specific device** in that network.
+
+##### 📌 Example:
+
+**IP Address:** `192.168.1.10`  
+**Subnet Mask:** `255.255.255.0`
+
+- **Network part:** `192.168.1`
+- **Host part:** `10`
+
+➡️ So, `10` is the **host ID**, which means it's the 10th device on the `192.168.1` network.
+
+---
+
+#### 🧾 Summary Table
+
+| Feature         | Description                          |
+|------------------|--------------------------------------|
+| **What is a host?**  | A device connected to a network      |
+| **Requires IP?**     | Yes, must have a unique IP address   |
+| **Examples**         | PC, smartphone, printer, server      |
+| **Function**         | Sends/receives data over the network |
+
+---
+
+#### 🌐 **What is a Network?**
+
+A **network** is a group of **two or more connected devices** (like computers, phones, printers) that can **share data, files, and resources** with each other.
+
+##### 🧠 Think of it like:
+
+> A network is like a **highway** that connects devices so they can **talk and share** things easily.
 
 
+##### 📌 Why Networks are Useful:
+
+* Share files and data
+* Share printers, scanners, and internet
+* Communicate via emails, chats, calls
+
+##### 📦 Examples of Networks:
+
+* **Home Network:** Connecting your phone, laptop, and smart TV to Wi-Fi
+* **School/Office Network:** Many computers connected to a central server
+* **Internet:** The largest network in the world!
+
+---
+
+##### 🖥️ Types of Networks:
+
+| Type | Full Form                 | Area Covered              |
+| ---- | ------------------------- | ------------------------- |
+| LAN  | Local Area Network        | Small area (home, office) |
+| MAN  | Metropolitan Area Network | City-wide area            |
+| WAN  | Wide Area Network         | Large area (countries)    |
+
+---
+
+#### 🌐 What is an IP Address?
+
+- **IP Address** is like a home address for a device on a network.
+- It is used to identify each device (host) uniquely.
+
+##### ✨ Properties:
+1. **Unique** – Every device gets a different IP.
+2. **Universal** – Works everywhere across the internet.
+
+##### 🔗 Types of IP Address
+
+| Type        | Where it is used         | Example        |
+|-------------|---------------------------|----------------|
+| Public IP   | Used on the Internet      | `8.8.8.8`      |
+| Private IP  | Used in Local Networks    | `192.168.1.1`  |
+
+##### 🧮 IP Address Format
+
+- IP Address is made of **binary numbers**, but shown in **decimal**.
+- Example: `192.168.1.1` in binary is `11000000.10101000.00000001.00000001`
+
+---
+
+#### 🌐 IPv4 vs IPv6
+
+---
+
+##### ✅ What is IPv4?
+
+**IPv4 (Internet Protocol version 4)** is the 4th version of the Internet Protocol and is the most widely used.
+
+##### 📌 Features of IPv4:
+- 32-bit address
+- Written in decimal format (e.g., `192.168.1.1`)
+- Provides about 4.3 billion unique addresses
+- Still used in most networks today
+
+**Example:**  
+`192.168.0.1`
+
+---
+
+##### ✅ What is IPv6?
+
+**IPv6 (Internet Protocol version 6)** is the latest version of the Internet Protocol, developed due to the exhaustion of IPv4 addresses.
+
+##### 📌 Features of IPv6:
+- 128-bit address
+- Written in hexadecimal format (e.g., `2001:0db8:85a3:0000:0000:8a2e:0370:7334`)
+- Provides trillions of unique addresses
+- Supports modern internet-connected devices
+
+**Example:**  
+`2001:0db8:85a3:0000:0000:8a2e:0370:7334`
+
+##### 🔁 Difference between IPv4 and IPv6
+
+| Feature                  | IPv4                          | IPv6                                   |
+|--------------------------|-------------------------------|----------------------------------------|
+| **Full Form**            | Internet Protocol version 4   | Internet Protocol version 6            |
+| **Address Size**         | 32-bit                        | 128-bit                                |
+| **Address Format**       | Decimal                       | Hexadecimal                            |
+| **Example Address**      | `192.168.1.1`                 | `2001:db8::1`                          |
+| **Number of Addresses**  | ~4.3 billion                  | Trillions (almost infinite)            |
+| **Header Size**          | 20 bytes                      | 40 bytes                               |
+| **Configuration**        | Manual or via DHCP            | Auto-configuration supported           |
+| **Security**             | Optional (via IPSec)          | Mandatory (IPSec built-in)             |
+| **Broadcasting**         | Supported                     | Not supported (uses multicasting)      |
+| **Speed & Efficiency**   | Less efficient                | More efficient and faster              |
+| **NAT (Address Sharing)**| Common                        | Not required                           |
+
+---
+
+#### ✅ Summary:
+- **IPv4** is old, still in use, but limited in number of addresses.
+- **IPv6** is the future, offering vast address space, improved performance, and security.
+
+---
+
+#### 📘 Notations in Networking
+
+In networking, **notations** are the way **IP addresses** and **subnet masks** are written and represented so that computers and people can understand and process them easily.
+In networking, IP addresses can be represented in different notations:
+
+1. **Binary Notation** 🧠 (Used by computers)
+2. **Dotted Decimal Notation** 📍 (Used by humans)
+3. **CIDR Notation** 🧾 (Used for subnetting)
+
+---
+
+##### 🔹 1. **Binary Notation**
+
+###### ✅ What is it?
+
+* Every **IP address** is actually stored and processed in **binary form** (0s and 1s) by computers.
+* Each of the 4 parts (called **octets**) in an IPv4 address is represented as an **8-bit binary number**.
+
+###### 🔁 Conversion Trick: Decimal ➝ Binary
+Use **division by 2** and write the remainders **in reverse**.
+
+###### 📌 Example:
+
+Let’s take the IP address:
+
+**`192.168.1.1`**
+
+In **binary notation**, this is:
+
+192    = 11000000  
+168    = 10101000  
+1      = 00000001  
+1      = 00000001
+
+So the full binary IP address is:
+
+**`11000000.10101000.00000001.00000001`**
+
+---
+
+##### 🔹 2. **Dotted Decimal Notation**
+
+###### ✅ What is it?
+
+* This is the **most common format** used by humans.
+* An IPv4 address is written as **four decimal numbers separated by dots**, where each number is the **decimal version of 8 binary bits** (1 byte).
+
+## 🔁 Conversion Trick: Binary ➝ Decimal
+Use **place values**:  
+
+Multiply each binary digit by powers of 2 (from right to left), then **add all**.
+
+###### 📌 Example:
+
+Binary:
+`11000000.10101000.00000001.00000001`
+
+Convert each part to decimal:
+
+```
+11000000 → 192  
+10101000 → 168  
+00000001 → 1  
+00000001 → 1
+```
+
+So the **dotted decimal notation** is:
+
+**`192.168.1.1`**
+
+---
+
+##### 🔹 3. **CIDR Notation (Bonus)**
+
+> CIDR stands for **Classless Inter-Domain Routing**
+> It is another way to show an IP address **with subnet mask**.
+> CIDR combines **IP address + subnet mask** in a compact way.
+
+###### 🧠 CIDR Conversion Trick:
+
+| CIDR Notation | Subnet Mask          |
+|---------------|----------------------|
+| /8            | 255.0.0.0            |
+| /16           | 255.255.0.0          |
+| /24           | 255.255.255.0        |
+| /32           | 255.255.255.255      |
+
+---
+
+###### 📌 Format: 
+
+IP_address/subnet_bits
+
+**Example:**
+`192.168.1.1/24`
+👉 Means: First 24 bits are **network**, and remaining 8 are **host**.
+
+---
+
+#### ✅ Summary Table
+
+| Notation Type       | Format Example                        | Description                             |
+| ------------------- | ------------------------------------- | --------------------------------------- |
+| **Binary Notation** | `11000000.10101000.00000001.00000001` | IP in binary, understood by computers   |
+| **Dotted Decimal**  | `192.168.1.1`                         | IP in human-readable form               |
+| **CIDR Notation**   | `192.168.1.1/24`                      | IP + subnet info for routing/networking |
+
+---
+
+
+#### 🧾 IP Classes (Classful Addressing)
+
+##### ✅ What is Classful Addressing?
+
+**Classful Addressing** is a system used in early internet networking to divide the IPv4 address space into **5 predefined classes**: A, B, C, D, and E.
+
+Each IP address was split into two parts:
+- **Prefix (Network ID):** Identifies the **network**.
+- **Suffix (Host ID):** Identifies the **device/node** within that network.
+
+This structure was used to decide how many **networks** and **hosts per network** could exist.
+
+---
+
+###### 🧩 Structure of IP Address
+
+An **IPv4 address** is 32 bits long, written in 4 octets (like: `192.168.1.1`).
+
+**Example** : 192.168.0.1 → 11000000.10101000.00000000.00000001
+
+Each address = **Network ID (prefix)** + **Host ID (suffix)**
+
+IPv4 addresses are divided into 5 **Classes** based on their first number.
+
+| Class | First Octet Range | Used For         | Net Bits | Host Bits | Example IP      |
+|-------|-------------------|------------------|----------|-----------|-----------------|
+| A     | 0 - 127           | Big networks     | 8        | 24        | `10.0.0.1`      |
+| B     | 128 - 191         | Medium networks  | 16       | 16        | `172.16.0.1`    |
+| C     | 192 - 223         | Small networks   | 24       | 8         | `192.168.1.1`   |
+| D     | 224 - 239         | Multicasting     | -        | -         | `224.0.0.1`     |
+| E     | 240 - 255         | Research/Reserve | -        | -         | -               |
+
+---
+
+###### 🅰️ Class A
+
+- **Range:** 1.0.0.0 to 126.255.255.255  
+- **Starting Bit Pattern:** `0`
+- **Default Subnet Mask:** `255.0.0.0 (/8)`
+- **Network.Host.Host.Host**
+- **Number of Networks:** 128
+- **Hosts per Network:** ~16 million
+- **Used for:** Very large organizations (e.g., ISPs)
+
+**Example:** `10.0.0.1`
+
+###### 🅱️ Class B
+
+- **Range:** 128.0.0.0 to 191.255.255.255  
+- **Starting Bit Pattern:** `10`
+- **Default Subnet Mask:** `255.255.0.0 (/16)`
+- **Network.Network.Host.Host**
+- **Number of Networks:** ~16,384
+- **Hosts per Network:** ~65,000
+- **Used for:** Medium-sized organizations (e.g., universities)
+
+**Example:** `172.16.5.4`
+
+###### 🅲 Class C
+
+- **Range:** 192.0.0.0 to 223.255.255.255  
+- **Starting Bit Pattern:** `110`
+- **Default Subnet Mask:** `255.255.255.0 (/24)`
+- **Network.Network.Network.Host**
+- **Number of Networks:** ~2 million
+- **Hosts per Network:** 254
+- **Used for:** Small networks (e.g., homes, small businesses)
+
+**Example:** `192.168.1.10`
+
+###### 🅳 Class D (Multicast)
+
+- **Range:** 224.0.0.0 to 239.255.255.255  
+- **Starting Bit Pattern:** `1110`
+- **Used for:** **Multicasting** (one-to-many communication)
+- **Not for host assignment**
+
+**Example:** `224.0.0.9` (used in routing protocols like RIP)
+
+###### 🅴 Class E (Reserved)
+
+- **Range:** 240.0.0.0 to 255.255.255.255  
+- **Starting Bit Pattern:** `1111`
+- **Used for:** **Research and development**
+- **Not assigned to hosts**
+
+**Example:** `250.1.1.1`
+
+---
+
+#### 📊 Summary Table
+
+| Class | IP Range                | Subnet Mask       | Hosts/Network | Use Case             |
+|-------|--------------------------|--------------------|----------------|----------------------|
+| A     | 1.0.0.0 – 126.255.255.255 | 255.0.0.0 (/8)     | ~16 million    | Large orgs/ISPs      |
+| B     | 128.0.0.0 – 191.255.255.255 | 255.255.0.0 (/16)  | ~65,000        | Universities/Corps   |
+| C     | 192.0.0.0 – 223.255.255.255 | 255.255.255.0 (/24)| 254            | Small offices/homes  |
+| D     | 224.0.0.0 – 239.255.255.255 | Not applicable     | Not applicable | Multicasting         |
+| E     | 240.0.0.0 – 255.255.255.255 | Not applicable     | Not applicable | Research/Reserved    |
+
+---
+
+##### 🧠 Easy Trick to Remember Classes:
+
+
+A → "All" (Large)
+B → "Big" (Medium)
+C → "Common" (Small)
+D → "Deliver" (Multicast)
+E → "Experiment" (Reserved)
+
+---
+
+##### 🚫 Limitations of Classful Addressing
+
+- **Wastes IP addresses** (e.g., Class A gives millions even if not needed)
+- Not flexible for modern networks
+- Doesn't support efficient **subnetting** or **CIDR**
+
+✅ That’s why it was replaced by **Classless Addressing (CIDR)** in modern networking.
+
+---
+
+##### 🧪 Example Questions:
+
+1. **What class does the IP `172.16.0.1` belong to?**  
+   → Class B
+
+2. **How many hosts can a Class C network support?**  
+   → 254
+
+3. **What is the default subnet mask of Class A?**  
+   → `255.0.0.0`
+
+---
+
+##### 🔍 How to Remember:
+- **Class A**: 0–127 → Big organizations (e.g. Indian Railways)
+- **Class B**: 128–191 → Medium companies
+- **Class C**: 192–223 → Home/Office LAN
+- **Class D**: 224–239 → Group messages (multicast)
+- **Class E**: 240–255 → Future use
+
+---
+
+#### 🌍 Reserved IP Addresses
+
+| IP Address      | Purpose                     |
+|------------------|------------------------------|
+| `0.0.0.0`        | Default / Unknown network    |
+| `127.0.0.1`      | Loopback (test your PC)      |
+| `255.255.255.255`| Broadcast to all devices     |
+
+---
+
+#### 🧠 Network vs Host ID
+
+- IP Address is divided into 2 parts:
+  - **Network ID**: Identifies the network.
+  - **Host ID**: Identifies the device (host) in that network.
+
+##### Example:
+- Class B IP: `172.16.5.10`
+- **Network ID** = `172.16`
+- **Host ID** = `5.10`
+
+---
+#### 📡 Difference Between Unicast, Broadcast, and Multicast Addresses
+
+| Type       | Definition                                                                             |          Bandwidth Use        |          Example Use Case       |
+|------------|----------------------------------------------------------------------------------------|-------------------------------|---------------------------------|
+| **Unicast** (one to one)  | Sends data from **one sender to one specific receiver**.                |          Efficient            | One PC sending a file to another PC|
+| **Broadcast**(one to all) | Sends data from **one sender to all devices** on the network.           |  High (for large networks)    | ARP Request, DHCP Discovery   |
+| **Multicast**(one to many) | Sends data from **one sender to multiple selected receivers** (group). | More efficient than broadcast | Streaming video to multiple users  |
+
+---
+
+##### 📥 Address Information
+
+| Type        | IP Address Range                             | MAC Address Example       |
+|-------------|-----------------------------------------------|---------------------------|
+| **Unicast**   | Unique IP (e.g., `192.168.1.10`)              | `00:1A:2B:3C:4D:5E`        |
+| **Broadcast** | IPv4: `255.255.255.255` (local broadcast)     | `FF:FF:FF:FF:FF:FF`        |
+| **Multicast** | IPv4: `224.0.0.0` to `239.255.255.255`        | `01:00:5E:xx:xx:xx`        |
+
+-----
+
+#### 🌐 DNS and MAC Address
+
+#####  ✅ DNS (Domain Name System)
+
+- **Definition**: DNS converts domain names (like `www.google.com`) into IP addresses (like `142.250.182.14`).
+- **Purpose**: Helps users access websites using names instead of IP numbers.
+- **How it works**:
+  1. You enter a website name.
+  2. DNS finds the IP address of that website.
+  3. Browser connects to the correct server using that IP.
+
+- **Example**:
+
+[www.google.com](http://www.google.com) → 142.250.182.14
+
+---
+
+##### ✅ MAC Address (Media Access Control)
+
+- **Definition**: A MAC address is a **unique identifier** assigned to a device's **network interface card (NIC)**.
+- **Used in**: Local area networks (LAN) for device identification.
+- **Format**: 6 pairs of hexadecimal digits (48-bit).
+- Example: `00:1A:2B:3C:4D:5E`
+
+- **Key Points**:
+- Permanent (burned into hardware)
+- Used for communication inside a network
+- Helps routers and switches direct data correctly
+
+---
+
+#### 🔄 IP vs MAC (Quick Difference)
+
+| Feature        | IP Address           | MAC Address           |
+|----------------|----------------------|------------------------|
+| Type           | Logical (can change) | Physical (permanent)  |
+| Usage          | Internet-wide        | Local network (LAN)   |
+| Format         | 192.168.0.1          | 00:1A:2B:3C:4D:5E      |
+| Assigned by    | ISP or network       | Manufacturer           |
+
+---
+
+#### 🚪 Default Gateway
+
+---
+
+##### ✅ What is a Default Gateway?
+
+- A **Default Gateway** is a device (usually a **router**) that connects your local network to **external networks**, such as the internet.
+- It acts as an **exit point** for devices to send data **outside their network**.
+
+---
+
+###### 📌 Why is it important?
+
+- Without a default gateway, devices can **only communicate within the same local network**.
+- It allows communication with **other networks or the internet**.
+
+
+
+###### 🧠 Example:
+
+- Suppose your PC has IP: `192.168.1.10`
+- Your router (default gateway) has IP: `192.168.1.1`
+
+> When your PC wants to access `www.google.com`, it sends the request to `192.168.1.1` (default gateway), which forwards it to the internet.
+
+---
+
+#### 🗂️ Default Gateway vs IP Address
+
+| Feature         | IP Address                 | Default Gateway             |
+|-----------------|----------------------------|------------------------------|
+| Identity        | Unique to the device       | Common for all in network   |
+| Purpose         | Used to identify the device| Used to route external traffic|
+| Example         | `192.168.1.10`             | `192.168.1.1`                |
+
+---
+
+> ✅ **Tip**: The Default Gateway is usually the **IP address of your router**.
+
+-----
+
+#### 🛠️ Subnetting (Very Important)
+
+##### 📌 What is it?
+It helps you to utilize your network bandwidth more intelligently.
+
+The practice of dividing a network into two or more networks is called subnetting.
+
+> Subnetting means breaking a big network into smaller parts.
+> 
+##### ✅ Why we need it?
+
+- To use IP addresses more efficiently.
+- To increase security and control.
+
+##### 📘 Subnet Mask
+
+| Class | Subnet Mask        |
+|-------|---------------------|
+| A     | `255.0.0.0`         |
+| B     | `255.255.0.0`       |
+| C     | `255.255.255.0`     |
+
+##### 🎯 Example:
+
+> IP Address: `205.150.65.0/26`
+
+- `/26` → Means 26 bits are for network, 6 bits for host.
+
+##### Calculations:
+- **Subnet Mask**: `255.255.255.192`
+- **No. of Subnets**: `2^2 = 4`
+- **No. of Hosts/Subnet**: `2^6 - 2 = 62`
+- **Network IP**: `205.150.65.0`
+- **Broadcast IP**: `205.150.65.63`
+
+---
+
+#### 📊 Bandwidth and Latency
+
+- **Bandwidth**: Speed of data transfer (measured in bps) or 
+It is the rate at which data is actually transmitted over the network .
+
+- **Latency**: Time delay during data transfer from source to destination .
+
+---
+
+#### 🌐 Network IP and Broadcast IP 
+
+---
+
+##### ✅ Network IP (Network Address)
+
+- It is the **first IP address** in a network.
+- It is used to **identify the whole network**.
+- It does **not belong to any device**.
+- **Example**: `192.168.1.0` → means the 192.168.1 network.
+
+---
+
+##### ✅ Broadcast IP (Broadcast Address)
+
+- It is the **last IP address** in a network.
+- It is used to **send a message to all devices** in the network.
+- It does **not belong to any one device**.
+- **Example**: `192.168.1.255` → message goes to all devices in 192.168.1.x
+
+---
+
+#### 🎯 Summary
+
+| Term           | Meaning                          | Example          |
+|----------------|----------------------------------|------------------|
+| Network IP     | First IP, shows the network      | `192.168.1.0`    |
+| Broadcast IP   | Last IP, talks to all devices    | `192.168.1.255`  |
+
+> ✅ **Network IP = name of the network**  
+> ✅ **Broadcast IP = send to everyone in that network**
+
+
+-------------
+
+
+#### ✅ Final Summary (Easy Revision)
+
+| Concept        | Meaning                                       |
+|----------------|-----------------------------------------------|
+| IP Address     | Identity of device on a network               |
+| Public IP      | Visible on internet                          |
+| Private IP     | Used within a LAN                            |
+| Subnetting     | Divide a network into smaller ones            |
+| Broadcast IP   | Last IP in a subnet, sends to all             |
+| DNS            | Converts name to IP                           |
+| MAC Address    | Physical device ID                            |
+| IPv4           | 32-bit IP                                     |
+| IPv6           | 128-bit IP (newer version)                    |
+| Host           | Any device on a network                       |
+
+---
+
+> 🎓 Tip: Always remember **Network + Host = IP Address**  
+> ✨ For any subnet: **2^host_bits – 2 = Number of Hosts**
+
+---
 
 
