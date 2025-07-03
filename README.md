@@ -2264,6 +2264,8 @@ Used in broadband connection and telephone connection.
 
 RJ45 connectors are used to terminate Ethernet cables (Cat5e, Cat6, etc.) for wired networking. The color order of the wires must follow a standard to ensure proper communication.
 
+![alt text](rj.png)
+
 ### 📘 Wiring Standards
 
  standard color codes used for wiring RJ45 connectors:
@@ -2327,6 +2329,8 @@ WO  O   WG  B   WB  G   WBn Bn
 - Most commonly used in homes, offices, and LANs.
 - Wires are **twisted in pairs** to reduce interference.
 
+![alt text](twisted.png)
+
 ##### Types:
 | Type         | Description                          | Speed Example        |
 |--------------|--------------------------------------|----------------------|
@@ -2343,6 +2347,8 @@ WO  O   WG  B   WB  G   WBn Bn
 - Covered by insulation and metal shield.
 - Used in **TV cables, CCTV**, and older networks.
 
+![alt text](coaxial.png)
+
 ##### Features:
 - Better shielding than twisted pair.
 - Not used much today in new networks.
@@ -2356,6 +2362,8 @@ WO  O   WG  B   WB  G   WBn Bn
 - Made of **glass or plastic fibers**.
 - Uses **light signals** to transfer data.
 - Very **fast**, used for **long distances and high-speed internet**.
+
+![alt text](fibre.png)
 
 ##### Features:
 - No electrical interference
@@ -2394,6 +2402,8 @@ A **host** is any device that connects to a **network** and can **send or receiv
 ##### 💡 Simple Definition:
 > A **host** is a device on a network that has an **IP address** and can **communicate with other devices**.
 
+![alt text](h.png)
+
 ##### ✅ Examples of Hosts:
 - Computers (laptops/desktops)
 - Smartphones
@@ -2401,6 +2411,8 @@ A **host** is any device that connects to a **network** and can **send or receiv
 - Printers
 - Smart TVs
 - Any device with an **IP address**
+
+![alt text](hdevices.png)
 
 ---
 
@@ -2455,6 +2467,8 @@ A **host** is any device that connects to a **network** and can **send or receiv
 
 A **network** is a group of **two or more connected devices** (like computers, phones, printers) that can **share data, files, and resources** with each other.
 
+![alt tex](net.png)
+
 ##### 🧠 Think of it like:
 
 > A network is like a **highway** that connects devices so they can **talk and share** things easily.
@@ -2471,6 +2485,8 @@ A **network** is a group of **two or more connected devices** (like computers, p
 * **Home Network:** Connecting your phone, laptop, and smart TV to Wi-Fi
 * **School/Office Network:** Many computers connected to a central server
 * **Internet:** The largest network in the world!
+
+![alt text](network.png)
 
 ---
 
@@ -2520,6 +2536,8 @@ A **network** is a group of **two or more connected devices** (like computers, p
 - Written in decimal format (e.g., `192.168.1.1`)
 - Provides about 4.3 billion unique addresses
 - Still used in most networks today
+
+  ![alt text](bits.png)
 
 **Example:**  
 `192.168.0.1`
@@ -2695,17 +2713,12 @@ An **IPv4 address** is 32 bits long, written in 4 octets (like: `192.168.1.1`).
 
 Each address = **Network ID (prefix)** + **Host ID (suffix)**
 
+![alt text](classdict.png)
+
 IPv4 addresses are divided into 5 **Classes** based on their first number.
 
-| Class | First Octet Range | Used For         | Net Bits | Host Bits | Example IP      |
-|-------|-------------------|------------------|----------|-----------|-----------------|
-| A     | 0 - 127           | Big networks     | 8        | 24        | `10.0.0.1`      |
-| B     | 128 - 191         | Medium networks  | 16       | 16        | `172.16.0.1`    |
-| C     | 192 - 223         | Small networks   | 24       | 8         | `192.168.1.1`   |
-| D     | 224 - 239         | Multicasting     | -        | -         | `224.0.0.1`     |
-| E     | 240 - 255         | Research/Reserve | -        | -         | -               |
+![alt text](classtypes.png)
 
----
 
 ###### 🅰️ Class A
 
@@ -2719,6 +2732,8 @@ IPv4 addresses are divided into 5 **Classes** based on their first number.
 
 **Example:** `10.0.0.1`
 
+![alt text](a.png)
+
 ###### 🅱️ Class B
 
 - **Range:** 128.0.0.0 to 191.255.255.255  
@@ -2730,6 +2745,8 @@ IPv4 addresses are divided into 5 **Classes** based on their first number.
 - **Used for:** Medium-sized organizations (e.g., universities)
 
 **Example:** `172.16.5.4`
+
+![alt text](b.png)
 
 ###### 🅲 Class C
 
@@ -2743,6 +2760,8 @@ IPv4 addresses are divided into 5 **Classes** based on their first number.
 
 **Example:** `192.168.1.10`
 
+![alt text](c.png)
+
 ###### 🅳 Class D (Multicast)
 
 - **Range:** 224.0.0.0 to 239.255.255.255  
@@ -2751,6 +2770,8 @@ IPv4 addresses are divided into 5 **Classes** based on their first number.
 - **Not for host assignment**
 
 **Example:** `224.0.0.9` (used in routing protocols like RIP)
+
+![alt text](d.png)
 
 ###### 🅴 Class E (Reserved)
 
@@ -2761,17 +2782,19 @@ IPv4 addresses are divided into 5 **Classes** based on their first number.
 
 **Example:** `250.1.1.1`
 
+![alt text](e.png)
+
 ---
 
 #### 📊 Summary Table
 
-| Class | IP Range                | Subnet Mask       | Hosts/Network | Use Case             |
-|-------|--------------------------|--------------------|----------------|----------------------|
-| A     | 1.0.0.0 – 126.255.255.255 | 255.0.0.0 (/8)     | ~16 million    | Large orgs/ISPs      |
-| B     | 128.0.0.0 – 191.255.255.255 | 255.255.0.0 (/16)  | ~65,000        | Universities/Corps   |
-| C     | 192.0.0.0 – 223.255.255.255 | 255.255.255.0 (/24)| 254            | Small offices/homes  |
-| D     | 224.0.0.0 – 239.255.255.255 | Not applicable     | Not applicable | Multicasting         |
-| E     | 240.0.0.0 – 255.255.255.255 | Not applicable     | Not applicable | Research/Reserved    |
+| Class | Hosts/Network |  Use Case             |
+|-------|----------------|----------------------|
+| A     | ~16 million    | Large orgs/ISPs      |
+| B     | ~65,000        | Universities/Corps   |
+| C     | 254            | Small offices/homes  |
+| D     | Not applicable |     Multicasting     |
+| E     | Not applicable | Research/Reserved    |
 
 ---
 
@@ -3021,6 +3044,7 @@ It is the rate at which data is actually transmitted over the network .
 > ✅ **Network IP = name of the network**  
 > ✅ **Broadcast IP = send to everyone in that network**
 
+![alt text](dist.png)
 
 -------------
 
