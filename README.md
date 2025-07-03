@@ -2260,5 +2260,70 @@ System Automatically Restarts or Halts
 
 -----
 
+# 🌐 RJ45 Wiring Color Codes
+
+RJ45 connectors are used to terminate Ethernet cables (Cat5e, Cat6, etc.) for wired networking. The color order of the wires must follow a standard to ensure proper communication.
+
+---
+
+### 📘 Wiring Standards
+
+ standard color codes used for wiring RJ45 connectors:
+
+
+#### 🟧 T568B Wiring Standard (Most Common)
+
+| Pin | Wire Color     |
+|-----|----------------|
+| 1   | White/Orange   |
+| 2   | Orange         |
+| 3   | White/Green    |
+| 4   | Blue           |
+| 5   | White/Blue     |
+| 6   | Green          |
+| 7   | White/Brown    |
+| 8   | Brown          |
+
+---
+
+#### 🔄 Wire Arrangement (Left to Right)
+
+When holding the **RJ45 connector**:
+- **Clip facing down**
+- **Pins facing you**
+
+#### Pin Number View:
+
+1   2   3   4   5   6   7   8
+
+#### T568B Colors:
+
+WO  O   WG  B   WB  G   WBn Bn
+
+*WG = White/Green, WO = White/Orange, WB = White/Blue, WBn = White/Brown, Bn = Brown*
+
+---
+
+#### 📦 Straight vs Cross Cable
+
+| Cable Type   | Use Case                             | Ends Used            |
+|--------------|--------------------------------------|----------------------|
+| Straight     | PC to Switch, Router to Switch       | T568B – T568B        |
+| Crossover    | PC to PC, Switch to Switch (older)   | T568A – T568B        |
+
+> 📝 Today, most devices support **Auto MDI-X**, so **straight cables** are commonly used.
+
+---
+
+#### ✅ Summary
+
+- Use **T568B** standard for most home/office Ethernet cables.
+- Ensure both ends use the same standard for straight cables.
+- Use crimping tools and follow proper color code for reliable connections.
+
+---
+
+
+
 
 
