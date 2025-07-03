@@ -2802,9 +2802,13 @@ IPv4 addresses are divided into 5 **Classes** based on their first number.
 
 
 A → "All" (Large)
+
 B → "Big" (Medium)
+
 C → "Common" (Small)
+
 D → "Deliver" (Multicast)
+
 E → "Experiment" (Reserved)
 
 ---
