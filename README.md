@@ -2640,12 +2640,11 @@ Binary:
 
 Convert each part to decimal:
 
-```
+
 11000000 → 192  
 10101000 → 168  
 00000001 → 1  
 00000001 → 1
-```
 
 So the **dotted decimal notation** is:
 
@@ -2973,12 +2972,13 @@ E → "Experiment" (Reserved)
 #### 🛠️ Subnetting (Very Important)
 
 ##### 📌 What is it?
+
 It helps you to utilize your network bandwidth more intelligently.
 
 The practice of dividing a network into two or more networks is called subnetting.
 
 > Subnetting means breaking a big network into smaller parts.
-> 
+ 
 ##### ✅ Why we need it?
 
 - To use IP addresses more efficiently.
@@ -3075,4 +3075,61 @@ It is the rate at which data is actually transmitted over the network .
 
 ---
 
+## Training day :- 08
 
+----
+
+### 🧠 What is DHCP?
+
+##### ✅ DHCP – Dynamic Host Configuration Protocol
+
+### 📌 Definition:
+**DHCP** is a network protocol that **automatically gives IP addresses** to devices (like your phone, computer, etc.) when they connect to a network.
+
+---
+
+## 🔧 Why is DHCP used?
+
+- To **avoid manual IP configuration**.
+- To **save time** and **reduce mistakes**.
+- Makes it **easy to manage** IPs in big networks.
+
+---
+
+## 🧠 How it works (Simple Steps):
+
+1. You connect your device to Wi-Fi.
+2. Your device asks for an IP address.
+3. The **DHCP server** picks a free IP and gives it to your device.
+4. You are now connected to the network and internet!
+
+---
+
+## 📎 Example:
+
+- You connect your laptop to Wi-Fi.
+- DHCP gives it IP: `192.168.1.5`
+- Next time, it may give a different IP like `192.168.1.8`
+
+---
+
+## 🧾 Key Terms:
+
+| Term         | Meaning                              |
+|--------------|---------------------------------------|
+| DHCP Server  | The device (router or server) that gives IP addresses |
+| DHCP Client  | The device (your phone, PC, etc.) that gets an IP     |
+
+---
+
+## 🔄 Without DHCP vs With DHCP
+
+| Action           | Manual IP (No DHCP) | DHCP (Automatic)      |
+|------------------|---------------------|------------------------|
+| Set IP Address   | You do it manually  | Given automatically   |
+| Easy to Use?     | ❌ No                | ✅ Yes                |
+| Error chances    | High                | Low                   |
+
+---
+
+> ✅ **In Simple Words**: DHCP is like an **auto-assign system** that gives an IP address to each device, so you don’t have to do it yourself.
