@@ -92,27 +92,27 @@ When you switch on your computer, the system loads the operating system (like Wi
 
 🔄 1. **Cold Booting (Hard Booting):**
 
-➡️ **Meaning**: Starting the computer when it is completely turned off.
+➡ **Meaning**: Starting the computer when it is completely turned off.
 
-➡️ **Example**: You press the **power button** to turn on your computer after it was shut down – that's **cold booting**.
+   **Example**: You press the **power button** to turn on your computer after it was shut down – that's **cold booting**.
 
 🔁 2. **Warm Booting (Soft Booting)**:
 
-➡️ **Meaning**: Restarting the computer without turning off the power.
+➡ **Meaning**: Restarting the computer without turning off the power.
 
-➡️ **Example**: You press **Ctrl + Alt + Del** or click **Restart** on Windows – that's **warm booting**.
+   **Example**: You press **Ctrl + Alt + Del** or click **Restart** on Windows – that's **warm booting**.
 
 🔧 3. **Dual Booting**:
 
-➡️ **Meaning**: Having **two operating systems** installed and choosing one to run.
+➡ **Meaning**: Having **two operating systems** installed and choosing one to run.
 
-➡️ **Example**: Your laptop has Windows and Linux installed. At startup, you choose which one to use.
+  **Example**: Your laptop has Windows and Linux installed. At startup, you choose which one to use.
 
 ☁️ 4. **Network Booting (PXE Booting)**:
 
-➡️ **Meaning**: Booting a computer from a **network server** instead of **local storage**.
+➡ **Meaning**: Booting a computer from a **network server** instead of **local storage**.
 
-➡️ **Example**: In a computer lab, systems boot from the college server using a LAN cable.
+   **Example**: In a computer lab, systems boot from the college server using a LAN cable.
 
 ---
 
@@ -1251,6 +1251,8 @@ In simpler terms, you can think of a motherboard as the command centre that allo
 
 🧩 These two bridges together form the **motherboard chipset** – managing data flow inside the system.
 
+----
+
 **IMPORTANT NOTE**
 * Study difference between RAM & ROM
 * Study difference between RAM & Cache memory
@@ -1309,6 +1311,8 @@ A **Hard Disk Drive (HDD)** is a traditional data storage device that uses **mag
 | SCSI       | Fast       | Servers, Workstations| SCSI          |
 | External   | Varies     | Portable use         | USB/SATA      |
 
+-----------------
+
 # 💾 Capacity and Partition of Hard Disk
 
 ## 🔹 Hard Disk Capacity
@@ -1319,8 +1323,6 @@ A **Hard Disk Drive (HDD)** is a traditional data storage device that uses **mag
 - Actual usable space is slightly less due to:
   - File system formatting
   - System files (like MBR or GPT data)
-
----
 
 ## 🔸 Hard Disk Partition
 
@@ -1507,6 +1509,8 @@ A 1TB Hard Disk partitioned as:
 - Uninstall apps you don’t need.
 - Scan for viruses and malware.
 - Keep your software and Windows updated.
+
+  -------------
 
 ### 🛠️ Diagnosing Hardware Failures: RAM, HDD, GPU, PSU
 
@@ -2712,7 +2716,7 @@ An **IPv4 address** is 32 bits long, written in 4 octets (like: `192.168.1.1`).
 
 Each address = **Network ID (prefix)** + **Host ID (suffix)**
 
-![alt text](classdict.png)
+![alt text](classdist.png)
 
 IPv4 addresses are divided into 5 **Classes** based on their first number.
 
@@ -3263,20 +3267,66 @@ Displays or configures the IP address and network settings of your computer.
 
 Shows your system’s IP, MAC address, subnet mask, and network interface status.
 
-##### 🧪 Example Command:
-
-ifconfig         # Linux/macOS
-ipconfig         # Windows
-
-##### 📌 Real-Life Example:
-
-> Your Wi-Fi says “connected” but there’s no internet. You run `ipconfig` to check if your computer has a proper IP address from the router. If not, you know something’s wrong with DHCP or router.
 
 ##### ✅ Use:
 
 * To find your IP address
 * To troubleshoot local network issues
 
+##### 📊 Summary Table
+
+| Command     | Platform | Purpose                                      |
+|-------------|----------|----------------------------------------------|
+| `ipconfig`  | Windows  | Displays and manages IP configuration        |
+| `ifconfig`  | Linux    | Displays and configures network interfaces   |
+
+
+##### 🔍 What is it?
+
+| Command     | Description                                                                 |
+|-------------|-----------------------------------------------------------------------------|
+| `ipconfig`  | A Windows command-line tool that displays current TCP/IP network settings. |
+| `ifconfig`  | A Linux/Unix command-line tool for viewing and changing network interface parameters. |
+
+##### 🧠 Real-life Analogy
+
+| Command     | Analogy                                                                  |
+|-------------|--------------------------------------------------------------------------|
+| `ipconfig`  | Like checking your **phone’s network settings**: IP, Wi-Fi, gateway info |
+| `ifconfig`  | Like accessing your **router’s admin page** to check connection settings |
+
+
+##### 📌 Important Fields Displayed
+
+| Field              | Meaning                                                       |
+|--------------------|---------------------------------------------------------------|
+| **IP Address**      | Unique address assigned to your device                        |
+| **Subnet Mask**     | Defines network and host portions of IP address               |
+| **Default Gateway** | Router IP used to access external networks                    |
+| **MAC Address**     | Physical address of your network adapter                      |
+| **DNS Servers**     | Servers used for domain name resolution                       |
+| **Interface Name**  | Name of the network adapter (e.g., `eth0`, `wlan0`, `Ethernet`) |
+| **Status**          | Shows if the interface is connected or disconnected           |
+
+
+##### 💡 Examples
+
+### ✅ `ipconfig` (Windows)
+
+ipconfig
+
+### ✅ `ifconfig` (Linux)
+
+ifconfig
+
+---
+
+## 📝 Tip
+
+* On **modern Linux systems**, `ifconfig` is deprecated. Use the `ip` command instead:
+
+  ip addr show
+  
 ---
 
 #### 📋 Summary Table
@@ -3306,6 +3356,7 @@ ipconfig         # Windows
 ##### 🧠 Real-Life Analogy
 
 > Think of Ethernet like **city roads**:
+
 - Cars = Data packets  
 - Roads = Ethernet cables  
 - Houses = Computers  
