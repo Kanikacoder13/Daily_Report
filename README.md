@@ -3143,6 +3143,17 @@ It sends small data packets (ICMP echo requests) to a target IP or domain, and w
 
 ping google.com
 
+> **On windows**
+
+![alt text](ping1.png)
+
+![alt text](ping4.png)
+
+> **On Linux**
+
+![alt text](pingcp.png)
+
+
 ##### 📌 Real-Life Example:
 
 > You're not able to open Google on your browser. You run `ping google.com` to check if your computer can reach Google’s servers. If it replies, the problem is not with your internet.
@@ -3151,12 +3162,6 @@ ping google.com
 
 * To test internet or network connection
 * To see if a server is **up or down**
-
-  ![alt text](ping1.png)
-  
-  ![alt text](ping2.png)
-
-   ![alt text](ping3.png)
 
 ---
 
@@ -3215,7 +3220,13 @@ Sends packets with increasing TTL (Time To Live) and shows each router between y
 ##### 🧪 Example Command:
 
 traceroute google.com      # On Linux/macOS
+
+![alt text](traceroute.png)
+
 tracert google.com         # On Windows
+
+![alt text](tracertcp.png)
+
 
 ##### 📌 Real-Life Example:
 
@@ -3311,17 +3322,23 @@ Shows your system’s IP, MAC address, subnet mask, and network interface status
 
 ##### 💡 Examples
 
-### ✅ `ipconfig` (Windows)
+###### ✅ `ipconfig` (Windows)
 
 ipconfig
 
-### ✅ `ifconfig` (Linux)
+![alt text](ipconfigcp.png)
+
+
+###### ✅ `ifconfig` (Linux)
 
 ifconfig
 
+![alt text](ifconfig.png)
+
+
 ---
 
-## 📝 Tip
+##### 📝 Tip
 
 * On **modern Linux systems**, `ifconfig` is deprecated. Use the `ip` command instead:
 
