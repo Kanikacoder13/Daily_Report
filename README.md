@@ -3270,22 +3270,6 @@ Use traceroute to see how it's being reached and where delays happen.
 
 #### ✅ 3. `ifconfig` Command (`ipconfig` in Windows)
 
-##### 📌 What is it?
-
-Displays or configures the IP address and network settings of your computer.
-
-##### 🧠 Technical Meaning:
-
-Shows your system’s IP, MAC address, subnet mask, and network interface status.
-
-
-##### ✅ Use:
-
-* To find your IP address
-* To troubleshoot local network issues
-
-##### 📊 Summary Table
-
 | Command     | Platform | Purpose                                      |
 |-------------|----------|----------------------------------------------|
 | `ipconfig`  | Windows  | Displays and manages IP configuration        |
@@ -3335,6 +3319,11 @@ ifconfig
 
 ![alt text](ifconfig.png)
 
+
+##### ✅ Use:
+
+* To find your IP address
+* To troubleshoot local network issues
 
 ---
 
