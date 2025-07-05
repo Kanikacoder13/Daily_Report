@@ -169,7 +169,7 @@ Examples (Types of CLI Shells):
 |   csh     |	      C Shell (C-like syntax)        |
 |    ksh    |	   Korn Shell (advanced features)    |
 |    zsh    |Z Shell (user-friendly & customizable)|
-|-----------|--------------------------------------|
+
 
 ### 🐚 What is **Bash**?
 
@@ -271,8 +271,6 @@ The file system structure is like a **digital cabinet** that helps the OS and us
 | `/usr`    | User-related programs and data |
 | `/var`    | Variable data (like **logs**, mails) |
 
----
-
 #### 📌 Key Points
 
 - The top-level directory is `/` (called **root**).
@@ -280,11 +278,10 @@ The file system structure is like a **digital cabinet** that helps the OS and us
 - Linux does **not** use drive letters like Windows (C:, D:) — everything is part of the same tree.
 
   -----
+  
 ## 💽 What is Slash Full Disk in Linux?
 
 In Linux, when someone says **"slash full disk"** or **"/ is full"**, it means the **root directory (`/`)** has **no free space left**.
-
----
 
 ### ✅ What is `/` (Slash) in Linux?
 
@@ -292,14 +289,10 @@ In Linux, when someone says **"slash full disk"** or **"/ is full"**, it means t
 - It is the **starting point** of the entire Linux file system.
 - All other folders like `/home`, `/etc`, `/bin`, etc., exist inside `/`.
 
----
-
 ### 🚨 What Does "Slash Full Disk" Mean?
 
 - The **main partition** of Linux (where it’s installed) is **completely full**.
 - No space is available to save files, install software, or update the system.
-
----
 
 ### ⚠️ Why Is It a Problem?
 
@@ -307,21 +300,25 @@ In Linux, when someone says **"slash full disk"** or **"/ is full"**, it means t
 - You can’t install or update software.
 - Some apps and services may stop working.
 
----
-
 ### 🛠️ How to Check If `/` Is Full?
-           df -h /
-          
+           df -h / 
+        
+------ 
+           
 📌 Quick Summary
 |  Term  | Meaning |
 |--------|---------|
 | / (Slash)|	Root directory (main Linux filesystem)|
 |Slash Full Disk|	The root disk is full – no free space left|
+
+----
+
 ## 🖥️ Basic Shell Commands in Linux (With Syntax)
 
 | Command | Description | Syntax | Example |
 |--------|-------------|--------|---------|
 | `ls` | Lists files and folders | `ls [options]` | `ls -l` |
+|whoami|Display current logged-in user|	whoami| whoami|
 | `cd` | Changes directory | `cd [directory]` | `cd /home/user` |
 | `mkdir` | Creates a new folder | `mkdir [folder_name]` | `mkdir myfolder` |
 | `rmdir` | Removes an empty folder | `rmdir [folder_name]` | `rmdir myfolder` |
