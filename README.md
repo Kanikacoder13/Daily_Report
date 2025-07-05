@@ -224,8 +224,6 @@ touch file.txt
 
 ---
 
-Let me know if you want a **Bash cheat sheet** or beginner guide PDF!
-
 **2. Graphical User Interface (GUI) Shells**
 
 User interacts using windows, icons, and buttons
