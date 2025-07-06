@@ -3305,15 +3305,9 @@ Use traceroute to see how it's being reached and where delays happen.
 
 ipconfig
 
-![alt text](ipconfigcp.png)
-
-
 ###### ✅ `ifconfig` (Linux)
 
 ifconfig
-
-![alt text](ifconfig.png)
-
 
 ##### ✅ Use:
 
