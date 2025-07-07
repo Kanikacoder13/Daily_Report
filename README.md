@@ -796,7 +796,7 @@ Sorted version of the file content, line by line.
 
 ### Program 2 : To print multiplication table
 
-![alt text](num.png)
+![alt text](table.png)
 
 ![alt text](nano(num).png)
 
@@ -3506,18 +3506,10 @@ When the browser sees `<h1>Hello</h1>`, it renders **Hello** as a big heading.
 
 #### ✅ Basic Structure of an HTML Document
 
-```html
-<!DOCTYPE html>
-<html>
-  <head>
-    <title>My First Web Page</title>
-  </head>
-  <body>
-    <h1>Welcome!</h1>
-    <p>This is a paragraph on my website.</p>
-  </body>
-</html>
-````
+![alt text](first.png)
+
+![alt text](run.png)
+
 
 #### ✅ Explanation of Each Part
 
@@ -3533,17 +3525,7 @@ When the browser sees `<h1>Hello</h1>`, it renders **Hello** as a big heading.
 
 #### ✅ Structure of HTML (Tree View)
 
-```
-<!DOCTYPE html>      → HTML5 Declaration
-<html>               → Root element
- ├─ <head>           → Metadata & Title
- │   └─ <title>      → Browser Tab Title
- └─ <body>           → Visible Content
-     ├─ <h1>         → Heading
-     └─ <p>          → Paragraph
-</html>
-```
------
+![alt text](part.png)
 
 #### ✅ Summary Points
 
