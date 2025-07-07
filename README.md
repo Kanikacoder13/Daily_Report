@@ -3466,4 +3466,93 @@ If it shows `inet` with an IP (like `192.168.1.10`), Ethernet is active.
 
 ------
 
+## Training day :- 09
+
+---
+
+
+### 🌐 Introduction to HTML
+
+#### ✅ What is HTML?
+
+**HTML (HyperText Markup Language)** is the standard language used to create web pages.  
+It defines the **structure and layout** of content using **tags**.
+
+- Not a programming language, but a **markup language**.
+- HTML files have a `.html` extension.
+
+---
+
+#### ✅ What Does HTML Do?
+
+- Creates the **structure** of a web page.
+- Organizes content using elements like headings, paragraphs, images, and links.
+- Acts as the **skeleton** of a web page.
+- It works along with CSS (for styling) and JavaScript (for functionality).
+
+---
+
+#### ✅ How Does a Browser Render HTML?
+
+1. Browser loads the `.html` file.
+2. It reads the HTML **line-by-line** from top to bottom.
+3. Builds a **DOM (Document Object Model)** in memory.
+4. Converts HTML tags into **visual elements** on the screen.
+5. Processes linked CSS for styling and JavaScript for functionality.
+
+**Example:**  
+When the browser sees `<h1>Hello</h1>`, it renders **Hello** as a big heading.
+
+
+#### ✅ Basic Structure of an HTML Document
+
+```html
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>My First Web Page</title>
+  </head>
+  <body>
+    <h1>Welcome!</h1>
+    <p>This is a paragraph on my website.</p>
+  </body>
+</html>
+````
+
+#### ✅ Explanation of Each Part
+
+| Part              | Description                                  |
+| ----------------- | -------------------------------------------- |
+| `<!DOCTYPE html>` | Declares the HTML version (HTML5).           |
+| `<html>`          | Root of the document. All content goes here. |
+| `<head>`          | Meta information (title, links, charset).    |
+| `<title>`         | Title shown in the browser tab.              |
+| `<body>`          | Contains visible content on the web page.    |
+| `<h1>`            | Largest heading, used for main titles.       |
+| `<p>`             | Paragraph element.                           |
+
+#### ✅ Structure of HTML (Tree View)
+
+```
+<!DOCTYPE html>      → HTML5 Declaration
+<html>               → Root element
+ ├─ <head>           → Metadata & Title
+ │   └─ <title>      → Browser Tab Title
+ └─ <body>           → Visible Content
+     ├─ <h1>         → Heading
+     └─ <p>          → Paragraph
+</html>
+```
+-----
+
+#### ✅ Summary Points
+
+* HTML defines **what** content appears on a webpage.
+* A **browser renders** HTML into visible structure.
+* Tags are used in **pairs**: `<tag>` ... `</tag>`.
+* Structure includes: `<!DOCTYPE>`, `<html>`, `<head>`, and `<body>`.
+
+---
+
+
 
