@@ -3601,6 +3601,12 @@ When the browser sees `<h1>Hello</h1>`, it renders **Hello** as a big heading.
 <img src="image.jpg" alt="Description of image">
 ```
 
+##### Using above HTML tags 
+
+![alt text](htmltags.png)
+
+![alt text](runn.png)
+
 ---
 
 ## ✅ Quick Notes:
