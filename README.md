@@ -3533,7 +3533,7 @@ When the browser sees `<h1>Hello</h1>`, it renders **Hello** as a big heading.
 
 ---
 
-## Training day:- 09
+## Training day:- 10
 
 ### 🌐 Introduction to HTML & Web Basics
 
