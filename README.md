@@ -3856,6 +3856,8 @@ Git uses a **three-layer architecture**:
 | **Working Tree**      | The current checked-out version of the project files (what you see and edit). |
 | **Index (Staging Area)** | A space where changes are prepared before making a permanent commit. |
 
+![alt text](gitarchi.jpg)
+
 ### 🔁 Git Workflow Diagram:
 ```
 
