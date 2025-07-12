@@ -3619,41 +3619,54 @@ When the browser sees `<h1>Hello</h1>`, it renders **Hello** as a big heading.
 
 ## Training day :- 11
 
-### 📘 HTML Topics
+### 📘 1. Forms and Input Types in HTML
 
-#### 1. 📝 HTML Forms and Input Types
-
-##### ✅ What is an HTML Form?
-
-An HTML **form** is used to **collect user input** and send it to the server for processing.
+#### 🔹 What is a Form?
+An **HTML form** is used to collect user input and send it to a server for processing. It is defined using the `<form>` tag.
 
 ```html
-<form action="submit_form.php" method="post">
-  <!-- Form elements go here -->
+<form action="/submit" method="post">
+  <!-- input elements go here -->
 </form>
-```
+````
+
+* `action`: The server URL where form data will be sent.
+* `method`: Defines how form data is sent – `GET` or `POST`.
 
 ---
 
-##### 🔤 Common Input Types
+### 🔹 HTML Form Methods: `GET` vs `POST`
 
-| Input Type | Purpose                        | Example                   |
-| ---------- | ------------------------------ | ------------------------- |
-| `text`     | Single-line text input         | `<input type="text">`     |
-| `password` | Hidden input for passwords     | `<input type="password">` |
-| `email`    | Validated email input          | `<input type="email">`    |
-| `number`   | Numeric input                  | `<input type="number">`   |
-| `radio`    | Choose one option from many    | `<input type="radio">`    |
-| `checkbox` | Choose multiple options        | `<input type="checkbox">` |
-| `submit`   | Submit the form                | `<input type="submit">`   |
-| `reset`    | Reset all fields               | `<input type="reset">`    |
-| `date`     | Select a date                  | `<input type="date">`     |
-| `file`     | Upload a file                  | `<input type="file">`     |
-| `hidden`   | Send hidden data with the form | `<input type="hidden">`   |
+| Feature       | `GET` Method                         | `POST` Method                     |
+| ------------- | ------------------------------------ | --------------------------------- |
+| Data Location | Appended in URL (visible)            | Sent in request body (invisible)  |
+| Use Case      | Safe data like search, filters       | Sensitive data like passwords     |
+| Length Limit  | Limited to URL length (\~2048 chars) | No size limit (depends on server) |
+| Security      | Less secure                          | More secure                       |
+| Example URL   | `/submit?name=John&email=test@x.com` | Data is hidden from URL           |
+
+✅ Use `GET` for search/filter forms and `POST` for login or data submission forms.
 
 ---
 
-#### 🎯 Example Form
+### 🔹 Common Input Types
+
+| Input Type | Description                   | Example                   |
+| ---------- | ----------------------------- | ------------------------- |
+| `text`     | Single-line text input        | `<input type="text">`     |
+| `password` | Password input (hidden chars) | `<input type="password">` |
+| `email`    | Validates email format        | `<input type="email">`    |
+| `number`   | Numeric values only           | `<input type="number">`   |
+| `radio`    | One option from a group       | `<input type="radio">`    |
+| `checkbox` | Multiple options              | `<input type="checkbox">` |
+| `date`     | Date picker                   | `<input type="date">`     |
+| `file`     | File upload                   | `<input type="file">`     |
+| `submit`   | Submits the form              | `<input type="submit">`   |
+| `reset`    | Resets all form fields        | `<input type="reset">`    |
+
+---
+
+### 🔹 Example HTML Form
 
 ```html
 <form action="/submit" method="post">
@@ -3677,60 +3690,49 @@ An HTML **form** is used to **collect user input** and send it to the server for
 
 ---
 
-#### 2. 🧱 Semantic HTML
+## 📘 2. Semantic HTML
 
-##### 📌 What is Semantic HTML?
+### 🔹 What is Semantic HTML?
 
-Semantic HTML uses tags that **clearly describe the meaning** of the content inside them. It improves:
-
-* Code readability
-* Accessibility
-* SEO (Search Engine Optimization)
+Semantic HTML refers to the use of HTML5 tags that clearly describe the purpose and meaning of the content. It helps in **accessibility**, **SEO**, and **code readability**.
 
 ---
 
-#### 🔤 Common Semantic Tags
+### 🔹 Common Semantic Tags
 
-| Tag         | Meaning/Purpose                           |
-| ----------- | ----------------------------------------- |
-| `<header>`  | Top section of a page (logo, title, menu) |
-| `<footer>`  | Bottom section (copyright, contact)       |
-| `<nav>`     | Contains navigation links                 |
-| `<section>` | Thematic content section                  |
-| `<article>` | Independent, self-contained content       |
+| Tag         | Purpose                                             |
+| ----------- | --------------------------------------------------- |
+| `<header>`  | Top section of page (logo, nav, title, etc.)        |
+| `<footer>`  | Bottom section of page (copyright, links)           |
+| `<nav>`     | Navigation links to other pages                     |
+| `<section>` | A thematic grouping of content                      |
+| `<article>` | Self-contained content (e.g., blog post, news item) |
 
 ---
 
-#### 🧠 Semantic HTML Example
+### 🔹 Semantic HTML Example
 
 ```html
-<header>
-  <h1>Eco Lifestyle Blog</h1>
-</header>
+<body>
+  <header>
+    <h1>Eco Lifestyle Guide</h1>
+    <nav>
+      <a href="home.html">Home</a>
+      <a href="tips.html">Tips</a>
+    </nav>
+  </header>
 
-<nav>
-  <a href="index.html">Home</a>
-  <a href="tips.html">Tips</a>
-  <a href="contact.html">Contact</a>
-</nav>
+  <section>
+    <article>
+      <h2>Green Living Tips</h2>
+      <p>Use reusable bags and bottles to reduce plastic waste.</p>
+    </article>
+  </section>
 
-<section>
-  <h2>Eco-Friendly Tips</h2>
-
-  <article>
-    <h3>Use Reusable Bags</h3>
-    <p>Say no to plastic by using cloth or jute bags.</p>
-  </article>
-
-  <article>
-    <h3>Save Water</h3>
-    <p>Turn off taps when not in use to conserve water.</p>
-  </article>
-</section>
-
-<footer>
-  <p>&copy; 2025 Eco Lifestyle</p>
-</footer>
+  <footer>
+    <p>© 2025 Eco Web. All rights reserved.</p>
+  </footer>
+</body>
 ```
 
 ---
@@ -3743,3 +3745,191 @@ Semantic HTML uses tags that **clearly describe the meaning** of the content ins
 
 ---
 
+## Training Day :- 12
+
+## 📘 3. CSS Styling: Inline, Internal & External
+
+### 🔹 What is CSS?
+
+CSS (Cascading Style Sheets) is used to style HTML elements. It controls layout, color, fonts, spacing, and more.
+
+There are **three ways to apply CSS**:
+
+### ✅ Inline CSS
+
+* Applied directly to an HTML element using the `style` attribute.
+* Best for quick, one-time styling.
+
+```html
+<p style="color: green; font-size: 18px;">This is styled text.</p>
+```
+
+### ✅ Internal CSS
+
+* Defined inside a `<style>` tag within the `<head>` of an HTML file.
+* Useful for styling a single web page.
+
+```html
+<head>
+  <style>
+    body {
+      background-color: #f0fff0;
+      font-family: Arial;
+    }
+    h1 {
+      color: darkgreen;
+    }
+  </style>
+</head>
+```
+
+### ✅ External CSS
+
+* Written in a separate `.css` file.
+* Linked to the HTML file using the `<link>` tag.
+* Recommended for styling multiple pages consistently.
+
+**HTML File:**
+
+```html
+<head>
+  <link rel="stylesheet" href="styles.css">
+</head>
+```
+
+**styles.css File:**
+
+```css
+body {
+  background-color: #e6ffe6;
+  font-family: Verdana;
+}
+h1 {
+  color: seagreen;
+  text-align: center;
+}
+```
+
+---
+
+### 🔹 Comparison Table
+
+| Feature     | Inline CSS             | Internal CSS                 | External CSS               |
+| ----------- | ---------------------- | ---------------------------- | -------------------------- |
+| Location    | Inside HTML element    | Inside `<style>` in `<head>` | In separate `.css` file    |
+| Scope       | One element only       | Whole single HTML page       | Multiple HTML files        |
+| Reusability | ❌ No                   | ⚠️ Limited                   | ✅ High                     |
+| Use Case    | Quick fixes or testing | Small websites or one-pagers | Full websites / many pages |
+
+---
+
+## Training Day :- 13
+
+### 📘 Module 4: Introduction to Git and Version Control
+
+---
+
+## 🔶 What is Git and Why Use Version Control?
+
+### 🔹 What is Git?
+**Git** is a **distributed version control system (VCS)** used to track changes in source code and collaborate on software projects. It helps developers work together efficiently, even on large and complex projects.
+
+### 🔹 What is Version Control?
+**Version control** is a system that records changes to a file or set of files over time, so you can recall specific versions later.
+
+### ✅ Benefits of Using Git & Version Control:
+- Keep history of all changes.
+- Collaborate with teams efficiently.
+- Rollback to previous versions if something breaks.
+- Work on multiple features simultaneously (branches).
+- Avoid overwriting each other's work.
+
+---
+
+## 🔶 Git Architecture: Repository, Working Tree, Index
+
+Git uses a **three-layer architecture**:
+
+| Component      | Description |
+|----------------|-------------|
+| **Repository (repo)** | A `.git` directory that stores the entire history and configuration of the project. |
+| **Working Tree**      | The current checked-out version of the project files (what you see and edit). |
+| **Index (Staging Area)** | A space where changes are prepared before making a permanent commit. |
+
+### 🔁 Git Workflow Diagram:
+```
+
+Working Tree → Index (Staging) → Local Repository
+
+````
+
+---
+
+## 🔶 Core Git Operations
+
+### 1️⃣ `git init`
+- Initializes a new Git repository.
+- Creates a hidden `.git` folder to track versions.
+
+```bash
+git init
+````
+
+---
+
+### 2️⃣ `git add`
+
+* Adds files to the **staging area** (index).
+* Prepares files for commit.
+
+```bash
+git add filename      # Add single file
+git add .             # Add all changes in the directory
+```
+
+---
+
+### 3️⃣ `git commit`
+
+* Saves changes from the staging area to the repository.
+* Requires a message describing the change.
+
+```bash
+git commit -m "Your commit message"
+```
+
+---
+
+### 4️⃣ `git status`
+
+* Shows the current state of working directory and staging area.
+* Helps identify what is staged, unstaged, or untracked.
+
+```bash
+git status
+```
+
+---
+
+### 5️⃣ `git log`
+
+* Displays the commit history.
+* Shows commit ID, author, date, and message.
+
+```bash
+git log
+```
+
+---
+
+## 📝 Summary
+
+| Command      | Purpose                                  |
+| ------------ | ---------------------------------------- |
+| `git init`   | Create a new Git repo                    |
+| `git add`    | Add changes to staging area              |
+| `git commit` | Save staged changes to repository        |
+| `git status` | Check status of changes and staged files |
+| `git log`    | View commit history                      |
+
+---
