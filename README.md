@@ -3685,6 +3685,8 @@ An **HTML form** is used to collect user input and send it to a server for proce
 </form>
 ```
 
+![alt text](formout.png)
+
 ---
 
 ## 📘 2. Semantic HTML
@@ -3731,6 +3733,8 @@ Semantic HTML refers to the use of HTML5 tags that clearly describe the purpose 
   </footer>
 </body>
 ```
+
+![alt text](sem.png)
 
 ---
 
