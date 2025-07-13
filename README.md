@@ -3874,9 +3874,6 @@ Git uses a **three-layer architecture**:
 Working Tree → Index (Staging Area) → Repository
 
 ---
-Perfect, Kanika! You're preparing proper documentation — that’s great for your assignment and GitHub profile. Here's a **complete, clean, and step-by-step guide in Markdown**, which includes **where to add screenshots for each step**.
-
----
 
 ### 📘 Git with Command Line –
 
@@ -4037,33 +4034,17 @@ git status
 git log
 ```
 
----
-
-## 🔶 Example Git Workflow (Complete Flow)
-
-This is a complete Git workflow, step-by-step:
-
-```bash
-git init                                     # Initialize a Git repo
-git clone https://github.com/your/repo.git  # Clone existing GitHub repo
-cd repo                                      # Navigate into project directory
-ls                                           # List files (optional)
-touch index.html                             # Create a new file
-nano index.html                              # Edit file content
-git add index.html                           # Stage the file
-git commit -m "Adding index.html"            # Commit with message
-git push origin main                         # Push code to GitHub
-```
+![alt text](comm.png)
 
 ---
 
-## 🔐 GitHub Access & Personal Access Tokens
+### 🔐 GitHub Access & Personal Access Tokens
 
-### 🔹 Why Use a Personal Access Token?
+#### 🔹 Why Use a Personal Access Token?
 
 GitHub removed password authentication for Git. Use tokens for secure authentication instead.
 
-### 🔹 How to Generate a Personal Access Token:
+#### 🔹 How to Generate a Personal Access Token:
 
 1. Go to **GitHub → Settings**
 2. Open **Developer Settings**
@@ -4077,7 +4058,7 @@ GitHub removed password authentication for Git. Use tokens for secure authentica
 6. Click **Generate**
 7. **Copy the token** and keep it safe (you won’t see it again).
 
-### ❌ Never Share:
+#### ❌ Never Share:
 
 * API Keys
 * Personal Tokens
@@ -4086,16 +4067,16 @@ GitHub removed password authentication for Git. Use tokens for secure authentica
 
 ---
 
-## ✅ Do’s and Don’ts of GitHub
+### ✅ Do’s and Don’ts of GitHub
 
-### ✅ Do's
+#### ✅ Do's
 
 * Use `.gitignore` to skip unwanted files.
 * Write clear, meaningful commit messages.
 * Use branches to work on features separately.
 * Push regularly to save progress online.
 
-### ❌ Don’ts
+#### ❌ Don’ts
 
 * Don’t share your **personal access tokens**.
 * Don’t commit confidential data (API keys, passwords).
@@ -4103,7 +4084,7 @@ GitHub removed password authentication for Git. Use tokens for secure authentica
 
 ---
 
-## 📝 Summary of Git Commands
+### 📝 Summary of Git Commands
 
 | Command                | Purpose                                  |
 | ---------------------- | ---------------------------------------- |
