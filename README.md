@@ -3842,6 +3842,16 @@ h1 {
 - Avoid overwriting each other's work.
 
 ---
+## 🔹 Why is Git Open Source?
+
+Git is open-source because it is licensed under the **GNU General Public License (GPL)**. This allows anyone to **freely use, modify, and share** it. Being open-source encourages global collaboration, fast development, and secure improvements by the community.
+
+---
+
+## 🔹 Why Must Future Coders Learn Git?
+
+Future coders must learn Git because it is a **crucial skill in software development**. It helps track code changes, supports **team collaboration**, ensures safe coding practices, and is widely used in the **tech industry**. Most coding jobs require Git knowledge.
+
 
 ## 🔶 Git Architecture: Repository, Working Tree, Index
 
