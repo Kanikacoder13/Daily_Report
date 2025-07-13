@@ -798,7 +798,7 @@ Sorted version of the file content, line by line.
 
 ![alt text](table.png)
 
-![alt text](nano(num).png)
+![alt text](table1.png)
 
 
 ### Program 3 : To compare two numbers
