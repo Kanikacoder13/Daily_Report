@@ -3845,75 +3845,72 @@ h1 {
 
 ## 🔶 Git Architecture: Repository, Working Tree, Index
 
+![alt text](gitarchi.jpg)
+
 Git uses a **three-layer architecture**:
 
-| Component      | Description |
-|----------------|-------------|
-| **Repository (repo)** | A `.git` directory that stores the entire history and configuration of the project. |
-| **Working Tree**      | The current checked-out version of the project files (what you see and edit). |
+| Component              | Description |
+|------------------------|-------------|
+| **Repository (repo)**  | A `.git` directory that stores the entire history and configuration of the project. |
+| **Working Tree**       | The current checked-out version of the project files (what you see and edit). |
 | **Index (Staging Area)** | A space where changes are prepared before making a permanent commit. |
-
-![alt text](gitarchi.jpg)
 
 ### 🔁 Git Workflow Diagram:
 ```
 
-Working Tree → Index (Staging) → Local Repository
+Working Tree → Index (Staging Area) → Repository
 
 ````
 
 ---
 
-## 🔶 Core Git Operations
+## 🔶 Core Git Operations (with Explanation)
 
 ### 1️⃣ `git init`
 - Initializes a new Git repository.
-- Creates a hidden `.git` folder to track versions.
+- Creates a hidden `.git` folder that tracks all changes.
 
 ```bash
 git init
 ````
 
----
-
 ### 2️⃣ `git add`
 
 * Adds files to the **staging area** (index).
-* Prepares files for commit.
+* Prepares them for the next commit.
 
 ```bash
-git add filename      # Add single file
-git add .             # Add all changes in the directory
+git add filename      # Add a specific file
+git add .             # Add all changed files in the current directory
 ```
-
----
 
 ### 3️⃣ `git commit`
 
-* Saves changes from the staging area to the repository.
-* Requires a message describing the change.
+* Records the staged changes into the Git repository.
+* Each commit requires a descriptive message.
 
 ```bash
 git commit -m "Your commit message"
 ```
 
----
-
 ### 4️⃣ `git status`
 
-* Shows the current state of working directory and staging area.
-* Helps identify what is staged, unstaged, or untracked.
+* Displays the status of working directory and staging area.
+* Shows which files are:
+
+  * **Tracked**
+  * **Modified**
+  * **Staged**
+  * **Untracked**
 
 ```bash
 git status
 ```
 
----
-
 ### 5️⃣ `git log`
 
-* Displays the commit history.
-* Shows commit ID, author, date, and message.
+* Shows the commit history in reverse order.
+* Displays commit IDs, author info, dates, and messages.
 
 ```bash
 git log
@@ -3921,14 +3918,83 @@ git log
 
 ---
 
-## 📝 Summary
+## 🔶 Example Git Workflow (Complete Flow)
 
-| Command      | Purpose                                  |
-| ------------ | ---------------------------------------- |
-| `git init`   | Create a new Git repo                    |
-| `git add`    | Add changes to staging area              |
-| `git commit` | Save staged changes to repository        |
-| `git status` | Check status of changes and staged files |
-| `git log`    | View commit history                      |
+```bash
+git init                             # Initialize repository
+git clone https://github.com/your/repo   # Clone repo
+cd folder-name                       # Go into directory
+ls                                   # List files
+touch index.html                     # Create new file
+nano index.html                      # Edit file
+git add index.html                   # Stage file
+git commit -m "Adding index.html"    # Commit file
+git push origin main                 # Push to GitHub
+```
 
 ---
+
+## 🔐 GitHub Access & Personal Access Tokens
+
+### 🔹 Why Use a Personal Access Token?
+
+GitHub removed password authentication for Git. Use tokens for secure authentication instead.
+
+### 🔹 How to Generate a Personal Access Token:
+
+1. Go to **GitHub → Settings**
+2. Open **Developer Settings**
+3. Go to **Personal Access Tokens**
+4. Click **Generate new token**
+5. Set:
+
+   * **Name of Token**
+   * **Expiration Date**
+   * **Permissions (Read/Write)**
+6. Click **Generate**
+7. **Copy the token** and keep it safe (you won’t see it again).
+
+### ❌ Never Share:
+
+* API Keys
+* Personal Tokens
+* IP addresses
+* Sensitive personal information
+
+---
+
+## ✅ Do’s and Don’ts of GitHub
+
+### ✅ Do's
+
+* Use `.gitignore` to skip unwanted files.
+* Write clear, meaningful commit messages.
+* Use branches to work on features separately.
+* Push regularly to save progress online.
+
+### ❌ Don’ts
+
+* Don’t share your **personal access tokens**.
+* Don’t commit confidential data (API keys, passwords).
+* Don’t edit code directly on the `main` branch without testing.
+
+---
+
+## 📝 Summary of Git Commands
+
+| Command                | Purpose                                  |
+| ---------------------- | ---------------------------------------- |
+| `git init`             | Create a new Git repository              |
+| `git clone`            | Copy a remote repository to local system |
+| `git add`              | Stage changes for commit                 |
+| `git commit -m ""`     | Commit changes with a message            |
+| `git status`           | View file status in working directory    |
+| `git log`              | View commit history                      |
+| `touch index.html`     | Create a new file                        |
+| `nano index.html`      | Open and edit file in terminal           |
+| `cd folder-name`       | Enter a folder                           |
+| `ls`                   | List files in folder                     |
+| `git push origin main` | Push commits to GitHub                   |
+
+---
+
