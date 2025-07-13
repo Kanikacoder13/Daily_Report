@@ -2929,8 +2929,6 @@ E → "Experiment" (Reserved)
 
 #### 🚪 Default Gateway
 
----
-
 ##### ✅ What is a Default Gateway?
 
 - A **Default Gateway** is a device (usually a **router**) that connects your local network to **external networks**, such as the internet.
@@ -2942,8 +2940,6 @@ E → "Experiment" (Reserved)
 
 - Without a default gateway, devices can **only communicate within the same local network**.
 - It allows communication with **other networks or the internet**.
-
-
 
 ###### 🧠 Example:
 
