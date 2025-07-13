@@ -3870,38 +3870,156 @@ Git uses a **three-layer architecture**:
 | **Index (Staging Area)** | A space where changes are prepared before making a permanent commit. |
 
 ### 🔁 Git Workflow Diagram:
-```
 
 Working Tree → Index (Staging Area) → Repository
 
+---
+
+# 🚀 How to Use Git with Command Line
+
+
+## ✅ Steps to Use Git with Command Line
+
+---
+
+### 🔹 Step 1: Install Git
+
+- Download Git from: [https://git-scm.com](https://git-scm.com)
+- After installation, check the version:
+
+```bash
+git --version
 ````
+
+### 🔹 Step 2: Configure Git (First Time Only)
+
+Set your Git identity (only once per system):
+
+```bash
+git config --global user.name "Your Name"
+git config --global user.email "you@example.com"
+```
+
+### 🔹 Step 3: Create or Clone a Repository
+
+#### 🟡 Option A: Initialize a New Repository Locally
+
+```bash
+mkdir my-project
+cd my-project
+git init
+```
+
+> Initializes Git in your project and creates a `.git` directory.
+
+#### 🟢 Option B: Clone an Existing GitHub Repository
+
+```bash
+git clone https://github.com/username/repo-name.git
+```
+
+> Clones the entire repo to your system.
+
+
+### 🔹 Step 4: Check Status
+
+Check which files are new, changed, or staged:
+
+```bash
+git status
+```
+
+### 🔹 Step 5: Add Files to Staging Area
+
+```bash
+git add filename.txt     # Add one file
+git add .                # Add all files
+```
+
+### 🔹 Step 6: Commit Changes
+
+Commit staged changes with a message:
+
+```bash
+git commit -m "Initial commit"
+```
+
+### 🔹 Step 7: Connect to Remote Repository
+
+Link your local repo to a GitHub repository:
+
+```bash
+git remote add origin https://github.com/yourusername/repo-name.git
+```
+
+### 🔹 Step 8: Push Code to GitHub
+
+Push your local commits to the GitHub remote repository:
+
+```bash
+git push -u origin master
+```
+
+> If your repo uses `main` as the branch name, replace `master` with `main`.
+
+### 🔹 Step 9: Pull Changes from GitHub
+
+Sync your code with the latest updates from GitHub:
+
+```bash
+git pull origin master
+```
+
+### 🔹 Step 10: View Commit History
+
+View the list of commits:
+
+```bash
+git log
+```
+
+Press `q` to quit the log view.
+
+### 🔹 Step 11: Create and Switch Branches
+
+```bash
+git branch feature-name        # Create a branch
+git checkout feature-name      # Switch to the branch
+```
+
+Or both at once:
+
+```bash
+git checkout -b feature-name
+```
 
 ---
 
 ## 🔶 Core Git Operations (with Explanation)
 
 ### 1️⃣ `git init`
-- Initializes a new Git repository.
-- Creates a hidden `.git` folder that tracks all changes.
+
+* Initializes a new Git repository.
+* Creates a `.git` folder to track the project.
 
 ```bash
 git init
-````
+```
 
 ### 2️⃣ `git add`
 
-* Adds files to the **staging area** (index).
-* Prepares them for the next commit.
+* Adds files to the staging area (also called index).
+* Prepares them to be committed.
 
 ```bash
 git add filename      # Add a specific file
-git add .             # Add all changed files in the current directory
+git add .             # Add all modified files
 ```
 
 ### 3️⃣ `git commit`
 
-* Records the staged changes into the Git repository.
-* Each commit requires a descriptive message.
+* Commits the staged changes to the Git repository.
+* Every commit must have a message.
 
 ```bash
 git commit -m "Your commit message"
@@ -3909,13 +4027,7 @@ git commit -m "Your commit message"
 
 ### 4️⃣ `git status`
 
-* Displays the status of working directory and staging area.
-* Shows which files are:
-
-  * **Tracked**
-  * **Modified**
-  * **Staged**
-  * **Untracked**
+* Shows the status of files in the working directory and staging area.
 
 ```bash
 git status
@@ -3923,8 +4035,7 @@ git status
 
 ### 5️⃣ `git log`
 
-* Shows the commit history in reverse order.
-* Displays commit IDs, author info, dates, and messages.
+* Shows the commit history in reverse chronological order.
 
 ```bash
 git log
@@ -3934,16 +4045,18 @@ git log
 
 ## 🔶 Example Git Workflow (Complete Flow)
 
+This is a complete Git workflow, step-by-step:
+
 ```bash
-git init                             # Initialize repository
-git clone https://github.com/your/repo   # Clone repo
-cd folder-name                       # Go into directory
-ls                                   # List files
-touch index.html                     # Create new file
-nano index.html                      # Edit file
-git add index.html                   # Stage file
-git commit -m "Adding index.html"    # Commit file
-git push origin main                 # Push to GitHub
+git init                                     # Initialize a Git repo
+git clone https://github.com/your/repo.git  # Clone existing GitHub repo
+cd repo                                      # Navigate into project directory
+ls                                           # List files (optional)
+touch index.html                             # Create a new file
+nano index.html                              # Edit file content
+git add index.html                           # Stage the file
+git commit -m "Adding index.html"            # Commit with message
+git push origin main                         # Push code to GitHub
 ```
 
 ---
