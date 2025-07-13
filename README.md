@@ -3405,6 +3405,7 @@ Ethernet allows computers to **send and receive data** safely and efficiently â€
 ###### ğŸ§ On **Linux**:
 
 ifconfig      # older systems
+
 ip a          # newer systems
 
 Look for : eth0, ens33, enp3s0
