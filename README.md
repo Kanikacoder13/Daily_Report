@@ -3874,126 +3874,122 @@ Git uses a **three-layer architecture**:
 Working Tree → Index (Staging Area) → Repository
 
 ---
-
-# 🚀 How to Use Git with Command Line
-
-
-## ✅ Steps to Use Git with Command Line
+Perfect, Kanika! You're preparing proper documentation — that’s great for your assignment and GitHub profile. Here's a **complete, clean, and step-by-step guide in Markdown**, which includes **where to add screenshots for each step**.
 
 ---
 
-### 🔹 Step 1: Install Git
+### 📘 Git with Command Line –
 
-- Download Git from: [https://git-scm.com](https://git-scm.com)
-- After installation, check the version:
+
+#### 🧰 Step 1: Install Git
+
+1. Go to the official Git website: [https://git-scm.com/](https://git-scm.com/)
+2. Download Git based on your OS (Windows/Mac/Linux)
+3. Install using the default options
+
+📸 **Git download page or installation setup**
+
+![alt text](git1.png)
+
+![alt text](git2.png)
+
+![alt text](git3.png)
+
+![alt text](git4.png)
+
+![alt text](git5.png)
+
+#### 🌐 Step 2: Create a GitHub Repository
+
+1. Log in to [https://github.com](https://github.com)
+2. Click on **New Repository**
+3. Give your repo a name like `Practice`
+4. Keep it **public**
+5. Don't select **Initialize with README** if you are cloning from local
+6. Click **Create repository**
+
+📸 **Create repository page on GitHub**
+
+![alt text](git6.png)
+
+![alt text](git7.png)
+
+
+#### 🔁 Step 3: Clone Repository to Your System
+
+Open **Git Bash** and use the command:
 
 ```bash
-git --version
-````
-
-### 🔹 Step 2: Configure Git (First Time Only)
-
-Set your Git identity (only once per system):
-
-```bash
-git config --global user.name "Your Name"
-git config --global user.email "you@example.com"
+git clone https://github.com/kanikacoder13/Practice.git
 ```
 
-### 🔹 Step 3: Create or Clone a Repository
+## 📁 Step 4: Go into the Project Folder
 
-#### 🟡 Option A: Initialize a New Repository Locally
-
-```bash
-mkdir my-project
-cd my-project
-git init
-```
-
-> Initializes Git in your project and creates a `.git` directory.
-
-#### 🟢 Option B: Clone an Existing GitHub Repository
+Use:
 
 ```bash
-git clone https://github.com/username/repo-name.git
+cd Practice
 ```
 
-> Clones the entire repo to your system.
+## 📄 Step 5: Create a New File
 
-
-### 🔹 Step 4: Check Status
-
-Check which files are new, changed, or staged:
+Use this command:
 
 ```bash
-git status
+touch index.html
 ```
 
-### 🔹 Step 5: Add Files to Staging Area
+![alt text](comm1.png)
+
+![alt text](comm2.png)
+
+
+## 📝 Step 6: Edit the File
+
+Edit using `nano` or VS Code or Notepad:
 
 ```bash
-git add filename.txt     # Add one file
-git add .                # Add all files
+nano index.html
 ```
 
-### 🔹 Step 6: Commit Changes
+![alt text](comm3.png)
 
-Commit staged changes with a message:
+
+## 📌 Step 7: Stage the File
+
+Stage your file using:
 
 ```bash
-git commit -m "Initial commit"
+git add index.html
 ```
 
-### 🔹 Step 7: Connect to Remote Repository
+## 💬 Step 8: Commit Your Changes
 
-Link your local repo to a GitHub repository:
+Commit with a message:
 
 ```bash
-git remote add origin https://github.com/yourusername/repo-name.git
+git commit -m "Added index.html file"
 ```
+![alt text](comm4.png)
 
-### 🔹 Step 8: Push Code to GitHub
+## 🌍 Step 9: Push to GitHub
 
-Push your local commits to the GitHub remote repository:
+Now push to the GitHub repository:
 
 ```bash
-git push -u origin master
+git push origin main
 ```
+![alt text](comm5.png)
 
-> If your repo uses `main` as the branch name, replace `master` with `main`.
+![alt text](comm6.png)
 
-### 🔹 Step 9: Pull Changes from GitHub
+![alt text](comm7.png)
 
-Sync your code with the latest updates from GitHub:
+![alt text](comm8.png)
 
-```bash
-git pull origin master
-```
+![alt text](comm9.png)
 
-### 🔹 Step 10: View Commit History
-
-View the list of commits:
-
-```bash
-git log
-```
-
-Press `q` to quit the log view.
-
-### 🔹 Step 11: Create and Switch Branches
-
-```bash
-git branch feature-name        # Create a branch
-git checkout feature-name      # Switch to the branch
-```
-
-Or both at once:
-
-```bash
-git checkout -b feature-name
-```
-
----
+-----
 
 ## 🔶 Core Git Operations (with Explanation)
 
