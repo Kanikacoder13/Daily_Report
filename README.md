@@ -4203,6 +4203,14 @@ Fetches changes from the remote and merges into your local branch.
 ```bash
 git pull origin main
 ```
+![alt text](m1.png)
+
+![alt text](m2.png)
+
+![alt text](m3.png)
+
+![alt text](m4.png)
+
 
 ##### 🔹 `git remote`
 
@@ -4211,6 +4219,8 @@ Manages remote repository connections.
 ```bash
 git remote -v
 ```
+
+![alt text](m.png)
 
 ---
 
